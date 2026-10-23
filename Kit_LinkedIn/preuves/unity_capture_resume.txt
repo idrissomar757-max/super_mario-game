@@ -1,0 +1,13 @@
+Built from '2017.2/release' branch; Version is '2017.2.0f3 (46dda1414e51) revision 4644257'; Using compiler version '160040219'
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Scenes creees: Assets/Scenes/MarioDemo.unity et Assets/Scenes/NextLevel.unity
+PORTFOLIO_CAPTURE_SUCCESS: D:\super_mario_exam\Communication_LinkedIn
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Exiting batchmode successfully now!

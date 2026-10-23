@@ -1,0 +1,19 @@
+01 — Workspace Unity, lumière du jour
+Légende : Mise en scène IA de mon environnement de développement autour du prototype de plateforme 2D Unity / C#.
+Texte alternatif : Illustration IA d’un bureau en lumière naturelle. Deux écrans présentent le jeu de plateforme et une vue générale du niveau.
+
+02 — Du code au gameplay
+Légende : Deux réglages du contrôleur, une même intention : rendre la commande de saut plus tolérante. Mise en scène IA avec des extraits réels du projet.
+Texte alternatif : Illustration IA montrant un écran de jeu et un ordinateur affichant les paramètres coyoteTime et jumpBufferTime de PlayerController.cs.
+
+03 — Préparation du level design
+Légende : Relier la structure du niveau aux systèmes de gameplay. Mise en scène IA à partir du parcours du projet.
+Texte alternatif : Illustration IA d’un plan de niveau de plateforme imprimé sur un bureau, avec un carnet portant les mots Player, Camera, Coins, Enemies et Goal.
+
+04 — Contrôle du personnage
+Légende : Le contrôleur définit un coyote time et un jump buffer de 0,12 seconde : une tolérance après le bord d’une plateforme et un appui mémorisé avant l’atterrissage.
+Texte alternatif : Composition technique associant une capture réelle du prototype à deux lignes de PlayerController.cs. Les paramètres coyoteTime et jumpBufferTime sont réglés à 0,12 seconde.
+
+05 — Organisation du niveau
+Légende : Un générateur de scènes pour organiser le niveau : hiérarchie claire, 14 pièces, 3 ennemis et 8 plateformes.
+Texte alternatif : Schéma de la hiérarchie générée et rendu général du parcours. Les compteurs indiquent 14 pièces, 3 ennemis et 8 plateformes. Le projet contient un niveau de démonstration et un écran de transition.

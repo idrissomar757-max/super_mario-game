@@ -1,0 +1,11 @@
+Unity Play Mode smoke scenario; automated repositioning; not a performance benchmark.
+Initial grounded state: True
+Initial score: 0
+Coin collection score: 1 (expected 1)
+Coins remaining: 13 (expected 13)
+Enemy contact GameOver: True (expected True)
+GameOver timeScale: 0 (expected 0)
+Reload score: 0 (expected 0)
+Reload GameOver: False (expected False)
+Falling below killY GameOver: True (expected True)
+Goal transition scene: NextLevel (expected NextLevel)

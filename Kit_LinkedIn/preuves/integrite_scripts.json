@@ -1,0 +1,52 @@
+[
+  {
+    "source": "Assets/Editor/SuperMarioDemoSceneBuilder.cs",
+    "sha256": "9eba060c96b173597a4d628acc8b97b9a1e9526e91958e85776726815cfd77b3",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Camera/CameraFollow2D.cs",
+    "sha256": "5f22a53f4b2764f3f808389498357fd47db0dcedab93a54820ef4962a640d99f",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Environment/EndLevelTrigger.cs",
+    "sha256": "826dfa17afc4e4a39efdbacb480d9a8b8842afce224bd8000fee29a13e9678ed",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Environment/NextLevelScreen.cs",
+    "sha256": "a1013ddac14fba5a0d585413d755a847ae1517e74ce2ea29cc0377b12d9598e7",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Environment/ParallaxLayer2D.cs",
+    "sha256": "041a13e1ce70c9390131b9390f453b0d73fb34d113f75dda0c3f0664410b21c9",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Gameplay/Coin.cs",
+    "sha256": "31bd1932b8796c8db363c1656f3e83cd48ca368cd4b7c2a0e7dddb1190bbaff7",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Gameplay/EnemyController.cs",
+    "sha256": "ad495247c1d36417aaece8d72a59832b174e063663006fb05be4690f620cdd3d",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Gameplay/GameManager.cs",
+    "sha256": "5d7cb41a29c85af397eafd81a937f88674c72096f0794147a4d6192ed41989af",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Gameplay/PlayerAnimation2D.cs",
+    "sha256": "27141d34e1384d1f35c62f4496a23a3ee7b775ae54c11e119e4a54eec75d4eac",
+    "copie_identique": true
+  },
+  {
+    "source": "Assets/Scripts/Gameplay/PlayerController.cs",
+    "sha256": "82bf5124dc58c3dacb7a6c4a43ccefc004582245aabfb306d647a9c69dbf0340",
+    "copie_identique": true
+  }
+]

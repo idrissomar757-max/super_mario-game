@@ -1,0 +1,98 @@
+[
+  {
+    "fichier": "carrousel/01_presentation.png",
+    "largeur": 1080,
+    "hauteur": 1350,
+    "sha256": "ffbc78c6d24cb5593295ae97311015581c6c0d672da8510af3c98af8389659ed"
+  },
+  {
+    "fichier": "carrousel/02_saut_et_controle.png",
+    "largeur": 1080,
+    "hauteur": 1350,
+    "sha256": "7b8705d11980a0f42030bbc10506ec1b1371f6928c93cdb390efe1c052686862"
+  },
+  {
+    "fichier": "carrousel/03_camera_et_decor.png",
+    "largeur": 1080,
+    "hauteur": 1350,
+    "sha256": "20dd5ba588c71d3bba5799c3b32cdfbcbf293780d831c20270a61b3eb093b4e1"
+  },
+  {
+    "fichier": "carrousel/04_outil_de_generation.png",
+    "largeur": 1080,
+    "hauteur": 1350,
+    "sha256": "fe93b5ff666313352b3fca839b769be6b083dc4ad2bcc17a56f6f5315662b494"
+  },
+  {
+    "fichier": "carrousel/05_boucle_de_jeu.png",
+    "largeur": 1080,
+    "hauteur": 1350,
+    "sha256": "82a3548e82f409ad12276a419d9002f53045ed776b00ad6fa924b97dcc80690f"
+  },
+  {
+    "fichier": "carrousel/06_perspectives.png",
+    "largeur": 1080,
+    "hauteur": 1350,
+    "sha256": "6f9d22c81d3168e3116903971b30d3811031024eb45756b0d19a8f536454e34c"
+  },
+  {
+    "fichier": "visuels/01_depart_camera_unity.png",
+    "largeur": 1920,
+    "hauteur": 1080,
+    "sha256": "5b97e1298a6d49f9d465b8a4bfb9f43856d6997ad6ee2f80e0ab91eac26a03ca"
+  },
+  {
+    "fichier": "visuels/02_plateformes_camera_unity.png",
+    "largeur": 1920,
+    "hauteur": 1080,
+    "sha256": "4c31c08a26f4a1502d23f49fad8bc82683a842501ecd2c6ca3aa3d9fbd1f06db"
+  },
+  {
+    "fichier": "visuels/03_arrivee_camera_unity.png",
+    "largeur": 1920,
+    "hauteur": 1080,
+    "sha256": "6bd19dbc0cf2ca365c955bcdd4ffe8f132db298d0c88ce1a42365057f503b97b"
+  },
+  {
+    "fichier": "visuels/04_vue_ensemble_camera_unity.png",
+    "largeur": 3200,
+    "hauteur": 1000,
+    "sha256": "674b29ad64c8a48e9b76a872f5ac41c4bb71267cf9020e55662c1bcc9e7d3f94"
+  },
+  {
+    "fichier": "visuels/05_fond_transition_camera_unity.png",
+    "largeur": 1920,
+    "hauteur": 1080,
+    "sha256": "40440e860ef3ab332585d34c5cef18f488d9d0a9547c69c00c1c2622c5d2571d"
+  },
+  {
+    "fichier": "visuels/06_jeu_hud_playmode.png",
+    "largeur": 1536,
+    "hauteur": 685,
+    "sha256": "8867372faf89213c3d5a204c925c52ae2d178d3f42c0eba249ec9ac9de2f7995"
+  },
+  {
+    "fichier": "visuels/07_collecte_score_playmode.png",
+    "largeur": 1536,
+    "hauteur": 685,
+    "sha256": "b3b84a3901134159fdd2bb671b113ace497fb3edc6db869edfd3094484bc9ada"
+  },
+  {
+    "fichier": "visuels/08_game_over_playmode.png",
+    "largeur": 1536,
+    "hauteur": 685,
+    "sha256": "3e10859d8ff4db67f618a80ba8cf40f0716c73f7af5d143f9878f5a9b9023008"
+  },
+  {
+    "fichier": "visuels/09_transition_playmode.png",
+    "largeur": 1536,
+    "hauteur": 685,
+    "sha256": "4d859985709bb1a4930d6ae458e9bb543c69d8c72eeecc62b64d6eba66f9d989"
+  },
+  {
+    "fichier": "visuels/10_assets_extraits.png",
+    "largeur": 1600,
+    "hauteur": 700,
+    "sha256": "47599f8b37c1174148363735e9f61077c2ae9e0055693148342dfaf00b4aa250"
+  }
+]

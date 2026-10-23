@@ -1,0 +1,63 @@
+{
+  "outil_ia": "image_gen intégré — mode compositing avec références du projet",
+  "photoshop_utilise": false,
+  "projet_unity_original_modifie": false,
+  "nombre_visuels": 5,
+  "exports": [
+    {
+      "png": "01_Exports/01_workspace_unity_lumiere_du_jour.png",
+      "jpg": "01_Exports/01_workspace_unity_lumiere_du_jour.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "type": "Mise en scène photoréaliste générée par IA",
+      "sha256_png": "7abd8c4b0544d9dfa5f2562d17bda608735006d81f3bd3dd8a17956e058ca850",
+      "sha256_jpg": "5547b6489e0cc688bf4d719390db4276c9749d8fe3387377dc23d9c2a96943bf"
+    },
+    {
+      "png": "01_Exports/02_detail_code_et_gameplay.png",
+      "jpg": "01_Exports/02_detail_code_et_gameplay.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "type": "Mise en scène photoréaliste générée par IA",
+      "sha256_png": "8c87bed7a3a5f6cc333993780d995c7effb4bd066984052c05e7453d5a97edda",
+      "sha256_jpg": "f14fc7f041b2801b0e63b99394443c10f93969ae1a0a1e31d08ea14297fea69c"
+    },
+    {
+      "png": "01_Exports/03_preparation_level_design.png",
+      "jpg": "01_Exports/03_preparation_level_design.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "type": "Mise en scène photoréaliste générée par IA",
+      "sha256_png": "a9f2570332773bb33ba78acb4678056d667b163a82554d240a62e0e6bd996a33",
+      "sha256_jpg": "b5727812343740d7b8054c7c33b0ad21dbaa5d8653a66e4c380b636625e3b0ed"
+    },
+    {
+      "png": "01_Exports/04_controle_du_personnage.png",
+      "jpg": "01_Exports/04_controle_du_personnage.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "type": "Composition technique à partir des sources et captures réelles",
+      "sha256_png": "af626b98d329990c5f132bc175c522fed2f4a941f3910f21e9aa605de372ab3f",
+      "sha256_jpg": "c0c1fece71247b095aa7461fc9673e580c098c446d92fe2c366018d8a18bfe4e"
+    },
+    {
+      "png": "01_Exports/05_organisation_du_niveau.png",
+      "jpg": "01_Exports/05_organisation_du_niveau.jpg",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "type": "Composition technique à partir des sources et captures réelles",
+      "sha256_png": "31760882f05c9bee7455b2133f5c5b39b47f1e6e73e2a49f34aacdcbf649d1cb",
+      "sha256_jpg": "f7e153ea1271b5152154c0c0df142df4bebadf33330265d070854b41901bb459"
+    }
+  ]
+}

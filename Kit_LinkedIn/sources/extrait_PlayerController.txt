@@ -1,0 +1,14 @@
+Source : Assets/Scripts/Gameplay/PlayerController.cs, lignes 9 à 20
+
+    public float moveSpeed = 6f;
+    public float acceleration = 55f;
+    public float deceleration = 70f;
+    public float airAcceleration = 40f;
+    public float airDeceleration = 45f;
+
+    [Header("Jump")]
+    public float jumpForce = 12.5f;
+    public float coyoteTime = 0.12f;
+    public float jumpBufferTime = 0.12f;
+    public float fallGravityMultiplier = 2.2f;
+    public float lowJumpGravityMultiplier = 1.8f;

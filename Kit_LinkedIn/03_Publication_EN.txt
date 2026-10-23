@@ -1,0 +1,15 @@
+Why revisit classic platform games? Because simple rules create demanding development challenges: precise controls, readable levels, and satisfying movement.
+
+Here is my 2D platformer prototype, built with Unity and C# and inspired by the classics of the genre.
+
+The project brings together a character controller with ground and air acceleration, variable jump height, coyote time, and jump buffering; a smooth camera with directional look-ahead; layered parallax backgrounds; collectible coins and scoring; patrolling enemies; and game-over and restart logic.
+
+I also worked with a custom editor tool that generates the demonstration level and a transition scene, connecting gameplay programming with the development workflow.
+
+For me, revisiting a traditional genre is a practical way to understand how movement, physics, camera behavior, and level layout shape the player experience.
+
+I am looking to keep developing these skills through gameplay and prototyping opportunities with game development teams, and would welcome feedback on this project.
+
+Visual assets: Kenney — Pixel Platformer; PROWNE — character assets via OpenGameArt. Work-in-progress portfolio prototype.
+
+#Unity #CSharp #GameDevelopment #GameplayProgramming #GameDevPortfolio

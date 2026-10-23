@@ -1,0 +1,10 @@
+Extraits du journal : erreurs de l’outil de capture et fin du scénario.
+Updating Assets/PortfolioRuntimeCapture.cs - GUID: 8c117e7bc716aab46b8060cbdc100389...
+----- Compute hash for Assets/PortfolioRuntimeCapture.cs.
+NullReferenceException: Object reference not set to an instance of an object
+  at PortfolioRuntimeCapture+<Start>c__Iterator0.MoveNext () [0x000d0] in D:\super_mario_exam\.capture_unity\Assets\PortfolioRuntimeCapture.cs:20 
+(Filename: Assets/PortfolioRuntimeCapture.cs Line: 20)
+NullReferenceException: Object reference not set to an instance of an object
+  at PortfolioRuntimeCapture+<Start>c__Iterator0.MoveNext () [0x000d0] in D:\super_mario_exam\.capture_unity\Assets\PortfolioRuntimeCapture.cs:20 
+(Filename: Assets/PortfolioRuntimeCapture.cs Line: 20)
+PORTFOLIO_PLAYMODE_SUCCESS

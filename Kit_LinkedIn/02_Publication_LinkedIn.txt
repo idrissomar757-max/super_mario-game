@@ -1,0 +1,19 @@
+Pourquoi revenir aux classiques du jeu de plateforme ? Parce que derrière des règles simples se cachent des défis essentiels de game development : précision des commandes, lisibilité du niveau et qualité des sensations de jeu.
+
+Je vous présente mon prototype de jeu de plateforme 2D, développé avec Unity et C#, dans l’esprit des classiques du genre.
+
+Ce projet m’a permis de travailler sur plusieurs systèmes complémentaires :
+• Un contrôleur de personnage avec accélération, freinage et contrôle aérien.
+• Un saut à hauteur variable, avec « coyote time » et « jump buffer » : deux mécanismes qui rendent la commande de saut plus tolérante autour du départ d’une plateforme et de l’atterrissage.
+• Une caméra avec suivi amorti et anticipation du déplacement.
+• Un environnement en pixel art, enrichi de plusieurs couches de parallaxe.
+• Une boucle de jeu avec collecte de pièces, score, ennemis en patrouille, défaite et redémarrage.
+• Un outil d’éditeur pour générer le niveau de démonstration et la scène de transition.
+
+L’intérêt de revisiter ce genre traditionnel est aussi technique : chaque plateforme, chaque saut et chaque déplacement de caméra oblige à relier programmation, physique 2D et conception du parcours.
+
+Mon objectif est de continuer à développer ces compétences dans des projets de gameplay et de prototypage au sein d’un studio. Je serais ravi d’échanger avec des développeurs et des équipes de création sur ce travail et ses prochaines évolutions.
+
+Crédits visuels : Kenney — Pixel Platformer ; PROWNE — assets du personnage, via OpenGameArt. Projet de portfolio en cours de développement.
+
+#Unity #CSharp #GameDevelopment #GameplayProgramming #GameDevPortfolio

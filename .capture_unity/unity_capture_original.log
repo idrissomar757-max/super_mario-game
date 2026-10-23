@@ -1,0 +1,2106 @@
+
+LICENSE SYSTEM [20261022 19:55:13] Next license update check is after 2026-05-08T17:46:16
+
+Built from '2017.2/release' branch; Version is '2017.2.0f3 (46dda1414e51) revision 4644257'; Using compiler version '160040219'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'fr' Physical Memory: 7975 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Package Manager] Server::Start -- Port 54694 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+D:\super_mario_exam\.capture_unity
+-executeMethod
+PortfolioCapture.Generate
+-logFile
+D:\super_mario_exam\Communication_LinkedIn\preuves\unity_capture.log
+Successfully changed project path to: D:\super_mario_exam\.capture_unity
+D:/super_mario_exam/.capture_unity
+Rebuilding Library because the asset database could not be found!
+ 
+(Filename: C:\buildslave\unity\build\Modules/AssetDatabase/Editor/Shared/AssetDatabaseInitialization.cpp Line: 169)
+
+Audio: FMOD Profiler initialized on port 54900
+Loading GUID <-> Path mappings...0.000104 seconds
+Loading Asset Database...0.000020 seconds
+AssetDatabase consistency checks...0.000801 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Server::EnsureServerProcessIsRunning -- ReadyRequest exceeded maximum alloted time, ran for [10] seconds
+[Package Manager] Server::Kill -- Server was shutdown
+[Package Manager] PackageManager Server::Start -- Process restart attempt #1
+
+[Package Manager] Server::Start -- Port 54697 was selected
+[Package Manager] Resolving 3 packages:
+[Package Manager]  * Package :  com.unity.ads@1.0.7
+    (location: C:\Users\User\AppData\LocalLow\Unity\cache\packages\packages.unity.com\com.unity.ads@1.0.7)
+[Package Manager]  * Package :  com.unity.analytics@1.0.1
+    (location: C:\Users\User\AppData\LocalLow\Unity\cache\packages\packages.unity.com\com.unity.analytics@1.0.1)
+[Package Manager]  * Package :  com.unity.purchasing@1.0.1
+    (location: C:\Users\User\AppData\LocalLow\Unity\cache\packages\packages.unity.com\com.unity.purchasing@1.0.1)
+[Package Manager] Resolve completed
+Initialize engine version: 2017.2.0f3 (46dda1414e51)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     2121 MB
+    Driver:   31.0.101.5522
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56672
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.337167 seconds.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 12.396 seconds
+Registering platform support modules:
+Registered platform support modules in: 0.6983918s.
+Native extension for WindowsStandalone target not found
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 0.362701 seconds.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.0437474s.
+Native extension for WindowsStandalone target not found
+Validating Project structure ... 0.002003 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.001234 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 6.008 seconds
+  file open: 5.865 seconds (660 files)
+  file read: 0.072 seconds (41.507 MB)
+  hash: 0.049 seconds
+----- Compute hash(es) for 330 asset(s).
+
+*** 542aff7134af18b419af0682f621f8b6 replaces 6a7f458291faab0479e6797845673ab2 at path assets/art/kenneypixelplatformer/construct 3/pixel platformer.c3p 
+*** 7d2bede05389f894ab98a2683c5ed50c replaces aa1c141646d094c41952aa881d47500a at path assets/art/kenneypixelplatformer/construct 3/readme.txt 
+*** a8bb411f943f3354a9bb9c6e20f55bc1 replaces de0e69c5bbf9e6846a1c69582130c77f at path assets/art/kenneypixelplatformer/license.txt 
+*** 0e4681734c617544cb5676022c431f9a replaces afd4b3faddd1b4d41ae59ee523f4f544 at path assets/art/kenneypixelplatformer/preview.png 
+*** f5c43916f98ad3a4e8ad681d59d8c00a replaces 150bbf8f31d8d3346aa93dadf3de2721 at path assets/art/kenneypixelplatformer/samplea.png 
+*** 3848ce37b710b2d4d865a39b73f3b878 replaces 8b0c5efc521b932448467411c1c92917 at path assets/art/kenneypixelplatformer/sampleb.png 
+*** d61fc5d86e170f743a1d721763cde825 replaces 85abce028ab5b51488b3642bf25a5644 at path assets/art/kenneypixelplatformer/tiled/tilemap-example-a.tmx 
+*** 988d2e332fe8f1547a90bf0ff0e12a05 replaces ae10ea9674f07e540a3d5320beba9914 at path assets/art/kenneypixelplatformer/tiled/tilemap-example-b.tmx 
+*** 7e7eca444a91a974da51725e1883b827 replaces 6c29a56a2bb6289469f30b84a1cf8054 at path assets/art/kenneypixelplatformer/tiled/tileset-characters.tsx 
+*** e8a6e8e130daab642bc96707877b0b9e replaces 2065e95ca3e109a4b836b1c258c802f1 at path assets/art/kenneypixelplatformer/tiled/tileset-tiles.tsx 
+*** ad2a8afb22aeb89479b40c4c5ca19090 replaces 36a12b03b7604fe459b87907b0b55137 at path assets/art/kenneypixelplatformer/tilemap/tilemap-backgrounds.png 
+*** 4dac65237066de44ca844a67d4e687cb replaces d252713bfe743e347b8ae9ef454fa3dc at path assets/art/kenneypixelplatformer/tilemap/tilemap-backgrounds_packed.png 
+*** fd5e221dd2622644cb6940a95847c2ba replaces 56f19515d753c43408bffe6271d5632d at path assets/art/kenneypixelplatformer/tilemap/tilemap-characters.png 
+*** 3d05ef6d8a949fe489489129695b1606 replaces 17eb1f5ac7dfbfc42b472c5105a0071a at path assets/art/kenneypixelplatformer/tilemap/tilemap-characters_packed.png 
+*** 3542a61b7afb99f4baec12c8147f64e6 replaces 836c1eb789221b0439d1cfc80fec4aff at path assets/art/kenneypixelplatformer/tilemap/tilemap.png 
+*** b5d69e39341c72c49810c78741294b84 replaces 04cb0da18136d524f83212d79d1a02e2 at path assets/art/kenneypixelplatformer/tilemap/tilemap_packed.png 
+*** d73695a81458e3244aa5017faed2f24a replaces 223b2b4cd0e92d9428cffcca3c3b2629 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0000.png 
+*** 1b1487d32fe98204680fa54629734d96 replaces fe5a253658fcab04daf947d994e9fb5a at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0001.png 
+*** a3a18c29a0444794288d214777271454 replaces 6e117d1130be264409c1211ee04fb572 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0002.png 
+*** 8278da069062b994dabd8264fc092de9 replaces c82a096e5f3ab1e4281db55bdddef292 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0003.png 
+*** 368205e66cc14834fbae756cbb418bed replaces a52231d2bde51594f8cd4d37ff132c9f at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0004.png 
+*** ff2fe68936a119044a2267d4fa778c7d replaces 612ffe13e08ff854cad473d535733625 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0005.png 
+*** b5968b62e8224db4fba41673c7dc860b replaces bd7c3130369b86f4d9531dd886e1a274 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0006.png 
+*** 6ef95371cd9d23846920bca1e5c66666 replaces 76a173738a1cbf3449540c5325599308 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0007.png 
+*** bae0a951d4fde9b4992113fc770bc22d replaces 013cc7fa81ee9c247abb6c02692cc5da at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0008.png 
+*** fd9b8033bf5f74a4f8e7ad9230810115 replaces 9d7abac056a9a57498014518836c0f18 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0009.png 
+*** 9852e8d499f2b0c4e9ebf16a8c337fc6 replaces bbce1604a8c8f2141a530f7141237bbf at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0010.png 
+*** ca21545d48b2b874c9bceae7a2a3e741 replaces f0400b9ce1cd6d84abaa32be3c4f7d2e at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0011.png 
+*** d8272cf1f30afbe448a5b3d020fbfb43 replaces d185b0875de25dd42885e1855d42f14e at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0012.png 
+*** c48bd8155bd712e4da6d439cd6a9044b replaces a3cfeca9522289841a143ba1a306bd49 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0013.png 
+*** 08233b183d7217447b0f05ee268a11a8 replaces e672497cd7cf0094aad0d0dbcea6d9b9 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0014.png 
+*** c7af0208f537b064eb43e0e593d04eb7 replaces de5e1339d319d9c4e84b51eb88af78bc at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0015.png 
+*** 180c784795c7a924c9e429eda26e180e replaces c8aac828eec241f4aa2771ee44a5a7d4 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0016.png 
+*** a4a2c8ff2636a124aa72ab35645912d2 replaces 2f344a8a3f8a6bf4e9734362f452c770 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0017.png 
+*** f1ed5373b7fda7c4e8d1b0d7815fc61c replaces 21165ec0c44d0e542a0ba648b04ec377 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0018.png 
+*** ad7c2c0fb0ebb9d4db457eb258b164ac replaces 3174be20088d686428e5f9811ca82452 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0019.png 
+*** 19f358bd9a749b44891a7fddb91ddd8b replaces 9769889b5d95d4e46a84dfb7f6ae3b10 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0020.png 
+*** d2e759558ce53be4b88659bcf64abd14 replaces e77e9fbfcf9dda246ae8b7ff1b1149b6 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0021.png 
+*** f5b665d8e7577f44badbea5b9a574fb1 replaces 710db479015808f49b10d163b1088912 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0022.png 
+*** f57aa9f40fbb8a541b5942633c191963 replaces 41d1b5738fc1527478cf7a192914e9e5 at path assets/art/kenneypixelplatformer/tiles/backgrounds/tile_0023.png 
+*** 1893781c2725bb144a4ad1dba4d2714e replaces c61ec6ee6fc8e2d4a8d8b5a2e541848d at path assets/art/kenneypixelplatformer/tiles/characters/tile_0000.png 
+*** 995990a55b8759b43a2481576f418edf replaces b1ae4977b26932e429f186eef9b5ac15 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0001.png 
+*** 188a6f1851664b843ae48fbe2b0926a8 replaces 34eca3e16801aa840bd94eb7e7dcda70 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0002.png 
+*** bfabb4a7d7171be4babad31f3e01f9bf replaces 94d94101f3c6b8f47954b98e71eadb34 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0003.png 
+*** 04daa897b5232ef49874353e1d17a8eb replaces 73f1082d94ec9264cb93850b106139d8 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0004.png 
+*** 20c6d0a025e62184cace4010f9f7d5d4 replaces b41b9c2ec71fa62409945e971e888027 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0005.png 
+*** ba74dc20eed9ce640beeb3fd7d94c2e5 replaces 6f7537f51159cbe46b190f88d9632b64 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0006.png 
+*** 606052e10e21f31459255f00036775f7 replaces 30cde38482d77af488a858075b8d6768 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0007.png 
+*** 14a9f53a68349b04e8dd252e9e45c8d9 replaces 737670db9bbc6e0479fb4faf8456d277 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0008.png 
+*** 4ea45d9f8255fde42af58762e253f418 replaces 8a3434f2a52bd1a4cbdd5b5c9093655e at path assets/art/kenneypixelplatformer/tiles/characters/tile_0009.png 
+*** d9ff08ab66bd9f74e9c2ed37051a050e replaces 1f4a612de7425b8428c2e493473aa751 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0010.png 
+*** 575855ea9f5eaa54cb47e26706f8e13e replaces 50484c7cd8fa1024f9f83931ff0f6ba2 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0011.png 
+*** e076952638ddd934cb74e9290565409a replaces 3006496ab10f6db46b83ee92f355c3fd at path assets/art/kenneypixelplatformer/tiles/characters/tile_0012.png 
+*** d28cf427e8309714db9e6ff03520d72b replaces 4bc76abee243ffa408b0c84672e0c4ef at path assets/art/kenneypixelplatformer/tiles/characters/tile_0013.png 
+*** c2f84f029f02e914881f64fe05860f5b replaces 0f5e4241f306d4540b687a46676fdbab at path assets/art/kenneypixelplatformer/tiles/characters/tile_0014.png 
+*** 22dfece0db8c26048afa3b608329f29a replaces 9faacf04c978a12468f6d91a5332785c at path assets/art/kenneypixelplatformer/tiles/characters/tile_0015.png 
+*** 7f6824d11da385f4e9f14eb1227a045e replaces d843dd763303f974bb9626e7c748900f at path assets/art/kenneypixelplatformer/tiles/characters/tile_0016.png 
+*** 012beb02847240d419de1e5b78d8d88c replaces a336278abe1811b4a8e476f11fea45b5 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0017.png 
+*** 265c23becd7a5dd4abc399c4e28a9550 replaces ef96a3271fcccc84ebb2fb9e4edd0754 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0018.png 
+*** fc184522c7b855c49890060bb2444def replaces 4727d712863b12945902cde9a14159bd at path assets/art/kenneypixelplatformer/tiles/characters/tile_0019.png 
+*** 52b78be61880ff74b9853e04e005b6a0 replaces ba4f8f40edba1034a9b472b23fa6df3d at path assets/art/kenneypixelplatformer/tiles/characters/tile_0020.png 
+*** c849b6373ca34ed4488460bfa5803c93 replaces ba8fcf091136d4245919840e60725438 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0021.png 
+*** 8185e1ca64410c34e88a251d0fadd372 replaces 8909cb4fadba5f1418e90384aadea020 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0022.png 
+*** f49ce6c60dd8e4d4193381ebcc2b54e5 replaces 7254e6f9f7477bd4c899604a454cb97a at path assets/art/kenneypixelplatformer/tiles/characters/tile_0023.png 
+*** dae93c4440532d14aaf2c8b19a51a62a replaces ba1b2ee248ea5324e85dbab55730f4b8 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0024.png 
+*** c2152c9ac915ded42851e776cd7b6e2c replaces cb7a7d890ce2dde4881300edce24bde2 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0025.png 
+*** b8533df3f53252c4f86d67ef1217de6f replaces e404e97639444794c842ec0287827ae4 at path assets/art/kenneypixelplatformer/tiles/characters/tile_0026.png 
+*** 970e9f21959af3b459f24214bba1f74a replaces 4610734ab8010e64094b55f3eb5df65a at path assets/art/kenneypixelplatformer/tiles/tile_0000.png 
+*** 99776d84eda7fbb46822969155bd35f1 replaces 685c8cfc8cbdb5a4f89f82a25bd8c553 at path assets/art/kenneypixelplatformer/tiles/tile_0001.png 
+*** 99d941f7bd407ae49ae0b7ad5c2ec766 replaces 2513a6b4734cd5e4592d25c65d0db2b6 at path assets/art/kenneypixelplatformer/tiles/tile_0002.png 
+*** e5ae580a9833ba24aa3ed1dd301d503b replaces 0d722ebf5b103074a9ecfddaf57a5e3d at path assets/art/kenneypixelplatformer/tiles/tile_0003.png 
+*** 569edd8541f20b541ad2d819a0537c1d replaces 1089d156dd7c7d8499df86fd29ebea89 at path assets/art/kenneypixelplatformer/tiles/tile_0004.png 
+*** d6d7d7ee83f31c4438c5c58258b2357e replaces e5e20fe2eeb027843b6893db99b40db2 at path assets/art/kenneypixelplatformer/tiles/tile_0005.png 
+*** 3b6657bc2b17a54439d7e7f7213b3164 replaces 043ff917d312f1141ae43f4b4b7f9953 at path assets/art/kenneypixelplatformer/tiles/tile_0006.png 
+*** 2eba1af16cb5d064a914b4d2e1625409 replaces 25b5046773755f043aef621b1b54eb0d at path assets/art/kenneypixelplatformer/tiles/tile_0007.png 
+*** a020e9d5ba9ece1429cbb0282b40995e replaces 2c8ec95a687253f47b9e0251bdb8f864 at path assets/art/kenneypixelplatformer/tiles/tile_0008.png 
+*** aec1e2f896ead7246b3d974dd3f9691c replaces 0410224da4199e5469f7b459e98ef022 at path assets/art/kenneypixelplatformer/tiles/tile_0009.png 
+*** 9a5a95cc71de7924b9a1961f4106395e replaces 6774b7f4ded8fb647b99890d4c24de20 at path assets/art/kenneypixelplatformer/tiles/tile_0010.png 
+*** 876d703ba7b1db841801891258747e4a replaces 7b1da882c4147604d9c9ff8a962cea6f at path assets/art/kenneypixelplatformer/tiles/tile_0011.png 
+*** 1514d99fa24065c4a8685a030ff734af replaces 7efb48bfe9f1ce24bb566947e4545928 at path assets/art/kenneypixelplatformer/tiles/tile_0012.png 
+*** 318964e4ed54f8a4ba3cf8a2a7188bda replaces 34a19792b79b6a149a0a87d94d23103c at path assets/art/kenneypixelplatformer/tiles/tile_0013.png 
+*** a28634d734978d746b69964ea2e37402 replaces 9a84ed1622e8ec14cb56d37b753a22e6 at path assets/art/kenneypixelplatformer/tiles/tile_0014.png 
+*** 312adebcd2a01c04793cb2adc087df32 replaces 8dbef316f0aa45546961abf6a1dc37db at path assets/art/kenneypixelplatformer/tiles/tile_0015.png 
+*** 1f5ccdd51e89cb34d9858289c3947f9b replaces 788ee3b281e1dc14ebce7cfcf7e477e4 at path assets/art/kenneypixelplatformer/tiles/tile_0016.png 
+*** 45062c5d21bb97543ba713e6f6f27d3c replaces 8756811067e92e04f852b7bba3942e6e at path assets/art/kenneypixelplatformer/tiles/tile_0017.png 
+*** 1e4e19dcf8bf43541a1a6924f48f7034 replaces 5532e8d7d2ac6c44293f354bcf1c90c6 at path assets/art/kenneypixelplatformer/tiles/tile_0018.png 
+*** 102ab44bcc135e248aadee9f37eaf656 replaces 31f1d67726af02741969b4b4b51c6ef7 at path assets/art/kenneypixelplatformer/tiles/tile_0019.png 
+*** 31cf202c0b6f1c0439149d9ca2bb073f replaces 16e08d5efb22c094aaca2598bbeeb91b at path assets/art/kenneypixelplatformer/tiles/tile_0020.png 
+*** c81a829e46aa4c84fbaba647b50351ef replaces e2c072252a6c5804ba47cf2bf1335cc1 at path assets/art/kenneypixelplatformer/tiles/tile_0021.png 
+*** e9bc98d716ac68f498c576b9b7d4ec63 replaces 98ad5f4e3d94a94438e7cbe2e9cde114 at path assets/art/kenneypixelplatformer/tiles/tile_0022.png 
+*** 4acc9f8b7dc03474c8d82632ebce8970 replaces 4116a3e5a9140814899f18b4394a2ec9 at path assets/art/kenneypixelplatformer/tiles/tile_0023.png 
+*** a40464eb3b18fd94b93ec839630f7bdd replaces 2dfab10513457b44d8beceecc1f4103b at path assets/art/kenneypixelplatformer/tiles/tile_0024.png 
+*** 803f50dcb665ab04fbd45e130bf421eb replaces 15f3df959d77d46408a428746b8d7dc8 at path assets/art/kenneypixelplatformer/tiles/tile_0025.png 
+*** ed8a3aaf55da62a4f90eaff2561693ef replaces 06c97b02e0cb4624d9d7318bcc24294d at path assets/art/kenneypixelplatformer/tiles/tile_0026.png 
+*** ebeb5f14e58b9c34aad6e2141acb397e replaces fb3259f1a733d704583f2a4d84d30e87 at path assets/art/kenneypixelplatformer/tiles/tile_0027.png 
+*** 03e5cd112d52d1044967ba24c52c454d replaces 1b69b85fe17bf30439c19291596db7f5 at path assets/art/kenneypixelplatformer/tiles/tile_0028.png 
+*** efcbb8c7a3ee60746b21a550d572f77a replaces 5e4565b9b747b6c41a65db8ebe9fc0b0 at path assets/art/kenneypixelplatformer/tiles/tile_0029.png 
+*** 6748c0f0d52ef2c41ac70d10fb936ba7 replaces 2d9110d532bc5c74a82f7a0080a34083 at path assets/art/kenneypixelplatformer/tiles/tile_0030.png 
+*** 3c0928dc1f414454198ba4c95cbea72f replaces e8a4aa53a8594b448979d0bfdff73cbb at path assets/art/kenneypixelplatformer/tiles/tile_0031.png 
+*** 169b3179758a2324cb7776f144c11efe replaces cfb841cc7eb11424f8249df2338ddc2f at path assets/art/kenneypixelplatformer/tiles/tile_0032.png 
+*** a8c4eaf1721161b4a9a893eadc3b30b7 replaces 95aafbde0213d2143bff5ee22e42305c at path assets/art/kenneypixelplatformer/tiles/tile_0033.png 
+*** 7cbf68e68edc1e248aaa92310164263b replaces 4f4308f57a26b9e4eaf575fdf6f1c1d2 at path assets/art/kenneypixelplatformer/tiles/tile_0034.png 
+*** 2eec180a5c66add47ab0a09ce37009e9 replaces 392a9d5e42ba7ea418c3656117c52efc at path assets/art/kenneypixelplatformer/tiles/tile_0035.png 
+*** 985f097cf2b64d74bb7c1a9c93c1f448 replaces 076f4869541dd6f4796d8311a20cfbd9 at path assets/art/kenneypixelplatformer/tiles/tile_0036.png 
+*** 2dcd5508c14d82d44aee540bfff733d3 replaces 9924278d20f3b914f9f35d5a3fb58130 at path assets/art/kenneypixelplatformer/tiles/tile_0037.png 
+*** e7ec7b1f2b822d84ca604cdc66c463d5 replaces 2080268fbf76aaa4aa0732bacc4d4114 at path assets/art/kenneypixelplatformer/tiles/tile_0038.png 
+*** 36e585ec51c44624ebad4e049f57b993 replaces b1b425afbf23d8a4d999afc0a6c49f79 at path assets/art/kenneypixelplatformer/tiles/tile_0039.png 
+*** a1220efd4965e384f87f63d41d74c9da replaces 6602e2e349ee8444e966b7420018e43c at path assets/art/kenneypixelplatformer/tiles/tile_0040.png 
+*** 87b93957ccb29874ca6021c88a58dd29 replaces 76ab7e4a9e65d494fac4907d9a372633 at path assets/art/kenneypixelplatformer/tiles/tile_0041.png 
+*** ac652c4a80f34ce4fb0d0ff861101424 replaces 6fcea6901fafde24dbe336642336b35e at path assets/art/kenneypixelplatformer/tiles/tile_0042.png 
+*** 6f42a5ee0ce86df44be09c84a08ba71a replaces f1d11ec6f0046c74a9903564d5f8ae70 at path assets/art/kenneypixelplatformer/tiles/tile_0043.png 
+*** fd2fd1a591458d8419c0ee3e10901c5b replaces 1a4a349f6eedc6843b089342b65884e8 at path assets/art/kenneypixelplatformer/tiles/tile_0044.png 
+*** 4d4826133caa98f41a51e2df165b8fc1 replaces 6b6a0a617a61ae147b3550ff558f475c at path assets/art/kenneypixelplatformer/tiles/tile_0045.png 
+*** 437d6b0c682428d409bb560493c033e4 replaces 2e7305a08f10fb047b12e733a27e8e17 at path assets/art/kenneypixelplatformer/tiles/tile_0046.png 
+*** 7938393dc86b5dc4ab7d2c7e5e2233e5 replaces 5d7b35c6fb4acaf4a94aac31ae650064 at path assets/art/kenneypixelplatformer/tiles/tile_0047.png 
+*** ab534df76f68874488db10ea691ae3ef replaces b2facfef6cd11c649a5028e95f416d44 at path assets/art/kenneypixelplatformer/tiles/tile_0048.png 
+*** 634b7223d780009429f9889893d85558 replaces 86358debb276463498c2b3ca1b77e287 at path assets/art/kenneypixelplatformer/tiles/tile_0049.png 
+*** 2ee553bead0bc0c41837c70cf78d0594 replaces fe103cabb587c864eb7cff732e09495d at path assets/art/kenneypixelplatformer/tiles/tile_0050.png 
+*** e27b762dd9ccbd242baf5aac3c0e4b78 replaces 92a3a1df5aca93a4983ecf66450e1fe7 at path assets/art/kenneypixelplatformer/tiles/tile_0051.png 
+*** 5e7fd543d142d474192c2268f01cfcbc replaces cc5a662136c323349b9e518635d473b1 at path assets/art/kenneypixelplatformer/tiles/tile_0052.png 
+*** 07047e4b70e56354d94163cb560efdc1 replaces e8ffcd94d5b9d03468b392a04ebc85bf at path assets/art/kenneypixelplatformer/tiles/tile_0053.png 
+*** 068f3ffc32fe13e48b5b87ec06bc305d replaces a33d863679bf7f444b0f721b25d91aea at path assets/art/kenneypixelplatformer/tiles/tile_0054.png 
+*** 14dd6cc344329344b9eb378d88819ed0 replaces 982da09b703fe614b9626c2c7bce0d02 at path assets/art/kenneypixelplatformer/tiles/tile_0055.png 
+*** 7bae9293060eee94ca1a78908af9312c replaces ccd5f0f9c84f3024b9f9c623451e0225 at path assets/art/kenneypixelplatformer/tiles/tile_0056.png 
+*** d40516de82bf4ac49997afb541bd6be1 replaces 2a6ead2a6670639469d43913bec3242d at path assets/art/kenneypixelplatformer/tiles/tile_0057.png 
+*** 5995a4a28405fca4ab5f34309e4be409 replaces ea51588670df41648b39609a93be3045 at path assets/art/kenneypixelplatformer/tiles/tile_0058.png 
+*** 2c9879ba2531c584684af48771683c03 replaces 20b9c53f30959f44ebba9a7ac68f99e8 at path assets/art/kenneypixelplatformer/tiles/tile_0059.png 
+*** 1b9a84b567c985c4d866e65bff53e8f1 replaces 21ff45ea537fc6442b77a6008d618493 at path assets/art/kenneypixelplatformer/tiles/tile_0060.png 
+*** 1734c3e38b3027e4899eb0f46cafa9dd replaces 56a91e7d57d930f4da6140ff8b39dff2 at path assets/art/kenneypixelplatformer/tiles/tile_0061.png 
+*** 940af440e0464104088f477dbdea6e45 replaces 587bdc10233b3304db8ff8cd92b3a8ea at path assets/art/kenneypixelplatformer/tiles/tile_0062.png 
+*** 12415c669bbe7e14ab8e9b390df43217 replaces f741ef1057b540946b8072dc56bab869 at path assets/art/kenneypixelplatformer/tiles/tile_0063.png 
+*** 5ffc50e21c3916449a8db43d2a6916fd replaces 92592604b69933146a57beb1f1272a3a at path assets/art/kenneypixelplatformer/tiles/tile_0064.png 
+*** 5d82176690b7d8349a43e20fc3346dfd replaces 4b33f4e0cbd62f04a9d48e51db859b4f at path assets/art/kenneypixelplatformer/tiles/tile_0065.png 
+*** 22c9289624b28d241bcf3b38110accf9 replaces 6a006b975e605ee4e913e45056a6f866 at path assets/art/kenneypixelplatformer/tiles/tile_0066.png 
+*** 81f0d1ff02ab47f4eb306a7a0e58f9af replaces 8f1cce36feae3964b98b6b73931ab967 at path assets/art/kenneypixelplatformer/tiles/tile_0067.png 
+*** 74b7d49608ce9bc41828493665596cb0 replaces abcd340f196d88a49901dd631cf2f863 at path assets/art/kenneypixelplatformer/tiles/tile_0068.png 
+*** a945dbf181465e749a0af72ee8a70ac9 replaces 9ca35b1263837f842a7659af17ec0a9c at path assets/art/kenneypixelplatformer/tiles/tile_0069.png 
+*** cf1d0e8230cdc7449ab3154e32b1ccc1 replaces 71938cd39f4d2c849ba6e82103e80e34 at path assets/art/kenneypixelplatformer/tiles/tile_0070.png 
+*** 4f61e9a59ea9d394fb34679cf6c554ae replaces aa9d7c8a87122004bb4f0a32dc192a66 at path assets/art/kenneypixelplatformer/tiles/tile_0071.png 
+*** b56812829c4cae94c9b47ee299a096b5 replaces 2eb7fcffdce9a584da376b85fe68c81c at path assets/art/kenneypixelplatformer/tiles/tile_0072.png 
+*** ceac3550e052b4c40ab0750dd78aceee replaces 50e7d756d6c107e4a806800d552f67e2 at path assets/art/kenneypixelplatformer/tiles/tile_0073.png 
+*** 8167f8e48e704b44a815f21a1e4214d4 replaces 7d2a93bceef85da44b91ed2a3ccbff28 at path assets/art/kenneypixelplatformer/tiles/tile_0074.png 
+*** b84a1d79743e9c14fbb2c9e7a6ad1c59 replaces 6e8a44016b3b6c1459d05295bff16bcc at path assets/art/kenneypixelplatformer/tiles/tile_0075.png 
+*** 8d57350fde631814e985323cf248da01 replaces 7b325d21144aac84a84884ae9d394fca at path assets/art/kenneypixelplatformer/tiles/tile_0076.png 
+*** 71f994d5bfa3a154fb10fa7a3a4edc63 replaces de7043ac002646446b9dee37b82c6880 at path assets/art/kenneypixelplatformer/tiles/tile_0077.png 
+*** e4cdd6d7529f9cb408af91dceeb3ebd3 replaces 7fe87b1e630660346a6f516c0d4d5de1 at path assets/art/kenneypixelplatformer/tiles/tile_0078.png 
+*** da1d073bfb847fb40a73448b8001d2b6 replaces 1f6de7ef6d3f5fd4293c42dfa4563c6c at path assets/art/kenneypixelplatformer/tiles/tile_0079.png 
+*** fff6069092749654298ca07066777770 replaces 8cb2854f54b6d93499073b9f3f093061 at path assets/art/kenneypixelplatformer/tiles/tile_0080.png 
+*** 62b3410b590086445884f0cd7ebce9cf replaces 6a0b16918415fbd43921fbf79b53d6f6 at path assets/art/kenneypixelplatformer/tiles/tile_0081.png 
+*** e6e791f6ca075b949ab6fbc35eee97b1 replaces 59ec8512d15d3c04fb10f6692dd7a053 at path assets/art/kenneypixelplatformer/tiles/tile_0082.png 
+*** 2d50b67d4cafaad4ba3dd1de80c6f427 replaces 20b7f35cb5a1bcb468e2c819a3a4dc42 at path assets/art/kenneypixelplatformer/tiles/tile_0083.png 
+*** c509cd021d06a6a4392b1dcbb7daa270 replaces cf526b653460d844191cd675fdea2cb4 at path assets/art/kenneypixelplatformer/tiles/tile_0084.png 
+*** 7224b5d5f846fba469726cdf1e7eac92 replaces dc44212c0803ee2408f53f53bb453751 at path assets/art/kenneypixelplatformer/tiles/tile_0085.png 
+*** 6869b9ebca5065448949739c53a079ff replaces 28e4c4ea906a3434baa5f6780059a9e5 at path assets/art/kenneypixelplatformer/tiles/tile_0086.png 
+*** 5546acef055dd3c4da1e85f65d4d82a1 replaces 89bdf251ed5800842954ec784bee9db5 at path assets/art/kenneypixelplatformer/tiles/tile_0087.png 
+*** 0e36c10494d0c9d40a0cecf7a4aa1587 replaces bb8a14d1263f1b34e908f6af9003faf3 at path assets/art/kenneypixelplatformer/tiles/tile_0088.png 
+*** a0481738ed593cc4d8f4e3bf54f09416 replaces 8101b6e9aaee0ad46931c44cf4d20298 at path assets/art/kenneypixelplatformer/tiles/tile_0089.png 
+*** 6e675c941efc87f4094945eff9080a27 replaces 4f888019114298d488464ca2bcf3116c at path assets/art/kenneypixelplatformer/tiles/tile_0090.png 
+*** 5a90f84e9341e3e4ba72ff63803b7345 replaces 28e79ae8006c94b4a85eecb5385f7550 at path assets/art/kenneypixelplatformer/tiles/tile_0091.png 
+*** 2a083cc2785db464bb85b11be1004300 replaces 9280bda16c54ce74cad38ee84414e2ec at path assets/art/kenneypixelplatformer/tiles/tile_0092.png 
+*** 1feb22497cea9f946af1a658d18770f0 replaces aea64084e18df8e40b61df24b2e9b857 at path assets/art/kenneypixelplatformer/tiles/tile_0093.png 
+*** ea181ec2cc41a0f4783b54d97e2b7484 replaces 020227c65390e1d4a98eab88e55b0c8e at path assets/art/kenneypixelplatformer/tiles/tile_0094.png 
+*** a074d871b51c5dc4db2b535d01a9a87c replaces 3c9e674bffb4e394c93efdba14a66e83 at path assets/art/kenneypixelplatformer/tiles/tile_0095.png 
+*** 54aea4ea60c266c4db65b3096b1cd0de replaces d2eac793324276b4ba092e2f575747a5 at path assets/art/kenneypixelplatformer/tiles/tile_0096.png 
+*** 7920bb4bff7f97147a915ad4e0b498f4 replaces afff300221a41234f83a8718547465de at path assets/art/kenneypixelplatformer/tiles/tile_0097.png 
+*** 5ba01802d96fbfe4a9cc05b68f906317 replaces d390055b3b4333c47a407c1348392ded at path assets/art/kenneypixelplatformer/tiles/tile_0098.png 
+*** 97e00d3848b084a41abcbddde4c0a338 replaces e82bb05a060fdc9428946c48125be784 at path assets/art/kenneypixelplatformer/tiles/tile_0099.png 
+*** cdb1768d81c1cc241b679187cc410b4c replaces edeb4d17346b50d4ba831a0b9cfc61af at path assets/art/kenneypixelplatformer/tiles/tile_0100.png 
+*** a427a5dc55de6464c8c04d80a2ac844f replaces d390e27ba1477854dae35de4622d62c7 at path assets/art/kenneypixelplatformer/tiles/tile_0101.png 
+*** fbe34da63ed603047a32d86019bbfd42 replaces 6aced5d7c42450f4092c9fad4ef7337b at path assets/art/kenneypixelplatformer/tiles/tile_0102.png 
+*** 5c33ae05cff3fd54cbff94610e346da3 replaces 76cf7139020f0274f8ac64525e600e3b at path assets/art/kenneypixelplatformer/tiles/tile_0103.png 
+*** 4992cdf6ea1c3d748ad6264b9004a0f3 replaces 05fb69bc4ba2553409996ab5d87816c4 at path assets/art/kenneypixelplatformer/tiles/tile_0104.png 
+*** f2741f56ba1bc3a46867321a7d8d62d5 replaces 48873d4a172eab84699ecb4a00fb70fd at path assets/art/kenneypixelplatformer/tiles/tile_0105.png 
+*** 8ed7c615079590d46aa26c119c4750a5 replaces 078fc3c5a8bc0d449bd5182aae7c562f at path assets/art/kenneypixelplatformer/tiles/tile_0106.png 
+*** 5fa6ad4b13b0cd142b23a54935b74b75 replaces d88c57156a8f9a94599fa7fdd7fcc8b7 at path assets/art/kenneypixelplatformer/tiles/tile_0107.png 
+*** 3dcc8a31953aaad478ac64e2717dd00a replaces 473c567e42e60c24e9f24257e76d068d at path assets/art/kenneypixelplatformer/tiles/tile_0108.png 
+*** e68b4a4b69775994a95eba9357521f9d replaces 49939320f83ec684cbd604e886b797e1 at path assets/art/kenneypixelplatformer/tiles/tile_0109.png 
+*** f807ae6541624f14b99a0c6d24f605c3 replaces 5c6153e60006c004f996be85a0bcee85 at path assets/art/kenneypixelplatformer/tiles/tile_0110.png 
+*** a9e9f5d3f26074d41993eff636dab4ce replaces 6010c4b9aa1a1b94fbb186262f471ce5 at path assets/art/kenneypixelplatformer/tiles/tile_0111.png 
+*** 35068b3a560907244ad7bfddcd57578b replaces ac8cd2861b0cb854eb4410de181b2d1c at path assets/art/kenneypixelplatformer/tiles/tile_0112.png 
+*** c8c0ee2cb8b99fb4f8f89a55d2d0d5b1 replaces 679df7fcd191d824c8a5fd338c684ca3 at path assets/art/kenneypixelplatformer/tiles/tile_0113.png 
+*** b6be898c74a1d2c43a295600cd78bbe3 replaces 579419e015ce6274fa5de295a40495b3 at path assets/art/kenneypixelplatformer/tiles/tile_0114.png 
+*** 0b005bcd64ef6834b850c241fde8eda9 replaces bdabb786682d0aa4a8335b6e1e55fdc3 at path assets/art/kenneypixelplatformer/tiles/tile_0115.png 
+*** 00bac7d5e24312e4a9ee19cc3334b96d replaces 91268700a6d47c2488ecd7e4dac4d44d at path assets/art/kenneypixelplatformer/tiles/tile_0116.png 
+*** 169ef023fd9171049a47b51866342e34 replaces a26076e7e6e328c48b6799fb04f1bd49 at path assets/art/kenneypixelplatformer/tiles/tile_0117.png 
+*** 270910fd4e016054c9cc44192870c831 replaces c49ed0690febb9e4e9797ebf3f77a935 at path assets/art/kenneypixelplatformer/tiles/tile_0118.png 
+*** 289e6e6ba4d59fb43b9f20f48cdc7b34 replaces 27b2f0d3c8a5d4c4eb7ff58145a43ff9 at path assets/art/kenneypixelplatformer/tiles/tile_0119.png 
+*** 9dc9b9e5f1ca871419dcca73b6c8dddb replaces a74ed75a7292c824db61cea038954daf at path assets/art/kenneypixelplatformer/tiles/tile_0120.png 
+*** 4b5a1683f2af32643a0b581dd32e95ae replaces 4ce848228ecfaee499cd4baf4da0962f at path assets/art/kenneypixelplatformer/tiles/tile_0121.png 
+*** 291a64f01ee33494dad79a4961c48975 replaces 3d0bc9aae26a88c48b1794ed67ce6920 at path assets/art/kenneypixelplatformer/tiles/tile_0122.png 
+*** 6f71ad850136d0e43a6d70b424913f14 replaces 5bf2c10180b92914e91db4a45c378fcf at path assets/art/kenneypixelplatformer/tiles/tile_0123.png 
+*** c180d70b5b03d1e49abb2b9ce0881602 replaces 352f7fffab239104c903245598df1c98 at path assets/art/kenneypixelplatformer/tiles/tile_0124.png 
+*** 71d2ed2cf7fa4744abaf63ed455689e4 replaces 8779d36d082742244bd5b948adf21ec9 at path assets/art/kenneypixelplatformer/tiles/tile_0125.png 
+*** f7b40535b94811f479dabf30e934d290 replaces 4909b43cba1400041a4af3daf376f72a at path assets/art/kenneypixelplatformer/tiles/tile_0126.png 
+*** ea818071d6a58cd4b9f49e25c37ed3c2 replaces 825b9c2b3ed39774cb7caf73d5160b8b at path assets/art/kenneypixelplatformer/tiles/tile_0127.png 
+*** e14a792b73e323b4ca90daf91b3cce63 replaces 4dab20a5d58476347bcb0dc2668e6da5 at path assets/art/kenneypixelplatformer/tiles/tile_0128.png 
+*** 35f0b1273a844c948896d10745b76fc5 replaces cb7af5f4d956ade418b48ea64adc1e50 at path assets/art/kenneypixelplatformer/tiles/tile_0129.png 
+*** bd114750185549e4a89269dfe8da581e replaces 3a5786fbc899afa45bb48a7101d8fbc0 at path assets/art/kenneypixelplatformer/tiles/tile_0130.png 
+*** e2d08eb0e8a77ef41902f38495064650 replaces 6b3e121a3cd002f4eba60f1517614086 at path assets/art/kenneypixelplatformer/tiles/tile_0131.png 
+*** 1ab4dec43adab9143bdfd9eb262afb4b replaces dee2b35cbf28a80499d51cfe5d3b7f57 at path assets/art/kenneypixelplatformer/tiles/tile_0132.png 
+*** 7f959f0ab05e1f44dbf9d0f886c25745 replaces 9725b002e0661b246835fe5a5777e167 at path assets/art/kenneypixelplatformer/tiles/tile_0133.png 
+*** 0f47f2fb6a1068c469b92e433ead0fb7 replaces 33097658a42e86d45ac24d7a11aba893 at path assets/art/kenneypixelplatformer/tiles/tile_0134.png 
+*** 208f795918cdb26419175f6ef31b8a81 replaces 5a2cbc9e359ff9946861475db24b15c8 at path assets/art/kenneypixelplatformer/tiles/tile_0135.png 
+*** da23276d7c28d3d4094b0fc4452a96ae replaces 107df31c0bde6ee409133a028b7ee95a at path assets/art/kenneypixelplatformer/tiles/tile_0136.png 
+*** 3877ea7202acf684d921fc79754a98cb replaces 050e3d69d9f435c4391da23d30a1d721 at path assets/art/kenneypixelplatformer/tiles/tile_0137.png 
+*** d4a9c07c2f8f2e94a947b5a1e54121a7 replaces c4f6892d1e81a974c844b3d1c48a0185 at path assets/art/kenneypixelplatformer/tiles/tile_0138.png 
+*** cd0c5c6d5c775e346b04feb03399172c replaces c80d617b767a93940b5b8833fd3bc5cd at path assets/art/kenneypixelplatformer/tiles/tile_0139.png 
+*** b25ef8d800fa12f4f9e5e011ab2dbf18 replaces ed4cd0f350dc541488f669d90a5dacfd at path assets/art/kenneypixelplatformer/tiles/tile_0140.png 
+*** 9599e36334ad2634ea57d90b5b1b3de6 replaces 4b4439bdef7015041b40cb28ba521fdb at path assets/art/kenneypixelplatformer/tiles/tile_0141.png 
+*** eab83d1a9fb926b4f9becc37a492dab3 replaces 869711028681c0f46a5adfa802cd496c at path assets/art/kenneypixelplatformer/tiles/tile_0142.png 
+*** 5dccade253b7b20468630245e24b5774 replaces 1dadbf37dc636fe46ac27dfa0f9e0774 at path assets/art/kenneypixelplatformer/tiles/tile_0143.png 
+*** 718847faa53db3a4492523011af7a246 replaces a4ba314ac728c394b98768fd33bee9ea at path assets/art/kenneypixelplatformer/tiles/tile_0144.png 
+*** 88676589ce0f2084681b8605b5825a4b replaces 6a176dd2e87263c488f70f034b16ae51 at path assets/art/kenneypixelplatformer/tiles/tile_0145.png 
+*** db576581a51e3ab4298299c4dc919565 replaces 67c643c3672f79b4b9b1a5d37d1f83ea at path assets/art/kenneypixelplatformer/tiles/tile_0146.png 
+*** df8eff8589c9ea246a9f11c8124ee461 replaces 2aee92e886198524490b9fd9f25d829b at path assets/art/kenneypixelplatformer/tiles/tile_0147.png 
+*** f5ae8e2853a25b84fbac7fe1efaabc0d replaces c4b04d2591a33f74b8044a2aa0cb3719 at path assets/art/kenneypixelplatformer/tiles/tile_0148.png 
+*** 4010740a30ee55a4aaf602eac5518bfc replaces ebb41bf8b210c2e498e45d0ea092f914 at path assets/art/kenneypixelplatformer/tiles/tile_0149.png 
+*** 0dd20b6761c3dbe4284adca2e02e535a replaces 02d770ab373b82645a53f3d8fc3076e3 at path assets/art/kenneypixelplatformer/tiles/tile_0150.png 
+*** 61e41ac99f797194781f07c15a0f4acc replaces 667442e3239af4144b70cb35ecb00fab at path assets/art/kenneypixelplatformer/tiles/tile_0151.png 
+*** aad7b55f51adabb45a29cc0f884b89b6 replaces f25bb1dc11f75e7488fa2b93ed3e620d at path assets/art/kenneypixelplatformer/tiles/tile_0152.png 
+*** 14d819825fdc69944b420df94da7fbf1 replaces 37e3135dbbc2128488f41f3122f4b937 at path assets/art/kenneypixelplatformer/tiles/tile_0153.png 
+*** 521b8530358eec64da068b982b6eadba replaces 692debfd2d3946d42a3e352076807436 at path assets/art/kenneypixelplatformer/tiles/tile_0154.png 
+*** f1d7ef902717fbb419e1e0fec85d5c91 replaces 932dec7c2476dd6489b4dd1db20e316b at path assets/art/kenneypixelplatformer/tiles/tile_0155.png 
+*** 42cfedf264db5f44c8c638a0a6cd00db replaces 2d1ed05ae64555a4fa9d95473f72709e at path assets/art/kenneypixelplatformer/tiles/tile_0156.png 
+*** 4e08a2aed7a932748acd874cb6cc169f replaces 5ab7ee1df286adf4293ebfb2b1f98911 at path assets/art/kenneypixelplatformer/tiles/tile_0157.png 
+*** f8cbadb21c0e8b34d907b3a4879e0946 replaces e94438a7ed5d7ce4dac00950e654737b at path assets/art/kenneypixelplatformer/tiles/tile_0158.png 
+*** 040289b50a2c1774d91d189d6dc8c8e3 replaces bd60005aaf0f2c64ea230136364ab0f0 at path assets/art/kenneypixelplatformer/tiles/tile_0159.png 
+*** 248f1a90e5e61bd4b85483f8fbfbc290 replaces 5c9e7673e4d274546bd71e82f8f99ab9 at path assets/art/kenneypixelplatformer/tiles/tile_0160.png 
+*** 78bcd54ae27ab2748988e0f79f1710a7 replaces e32cfa7e88a920c488642d70b47f11aa at path assets/art/kenneypixelplatformer/tiles/tile_0161.png 
+*** 36ef7b4b63bafe1409ef1f1c16cf3b58 replaces 3c4ed560926be844c9d9d48e31aa31a5 at path assets/art/kenneypixelplatformer/tiles/tile_0162.png 
+*** af3863aa26f7861479956e7a8af70bdc replaces dba29ec1591e23a4a92d6d2f023db80c at path assets/art/kenneypixelplatformer/tiles/tile_0163.png 
+*** e22eefbfcebbfc64ab73e1083b1b0534 replaces 705c46bc7fc9ed549af2a75d39a8b357 at path assets/art/kenneypixelplatformer/tiles/tile_0164.png 
+*** ca1c3c5637b70c8428e0cf442a16a7e8 replaces b014cbc35a6bf3148bd2dd757143aa63 at path assets/art/kenneypixelplatformer/tiles/tile_0165.png 
+*** 80ca0f5424754544090ca81c0c66d348 replaces 2c4be8e673ccbf742a4d030d09225f14 at path assets/art/kenneypixelplatformer/tiles/tile_0166.png 
+*** 240c4c19f36d8a74a8c68fc847a2be9e replaces 6097e4dd4633a834abd879252c73ab2a at path assets/art/kenneypixelplatformer/tiles/tile_0167.png 
+*** 10fca95273168f94785c5d56759a8885 replaces c10631622c2d62040b248b81c5bf82ed at path assets/art/kenneypixelplatformer/tiles/tile_0168.png 
+*** 8e1b0a4da47d9014681193abecd4e3ba replaces c707184e1e139984cb1448386f897eb8 at path assets/art/kenneypixelplatformer/tiles/tile_0169.png 
+*** abb9a383dc21c1c49a6905f12475679b replaces b71ecf550bd62ef438630bc8854c2915 at path assets/art/kenneypixelplatformer/tiles/tile_0170.png 
+*** 8a0c7ecd187a5ae4b99a59ecf95fe16b replaces 5d40b5a7c405f644a928d6fd1d1ff366 at path assets/art/kenneypixelplatformer/tiles/tile_0171.png 
+*** 59bb83e10ca54914b88377dd9408edf8 replaces 071b47e0df0702e489470da71d75ec63 at path assets/art/kenneypixelplatformer/tiles/tile_0172.png 
+*** 934c3233e8a91104088c0f1cbb3abd94 replaces 95f96a6be384f7e4b9a57fb6ec910acb at path assets/art/kenneypixelplatformer/tiles/tile_0173.png 
+*** 754505478e8a89b4ea2c15d810959212 replaces cd924def43b097d4e84abb0810508d96 at path assets/art/kenneypixelplatformer/tiles/tile_0174.png 
+*** 56e80cdabf157254f959ade1024d37c7 replaces c44bfd5f49e1fdc489b05d186b753a87 at path assets/art/kenneypixelplatformer/tiles/tile_0175.png 
+*** ac4ea54ad0671cd49a5b250412b87955 replaces c328ae4c45de62342b6f18cfc1ab8547 at path assets/art/kenneypixelplatformer/tiles/tile_0176.png 
+*** a96636a75c557ba41b2453595484340b replaces 083e69dcf6d73d34ca1463ff264e11b6 at path assets/art/kenneypixelplatformer/tiles/tile_0177.png 
+*** be6c736a1ce8c2a4e834c1a175c72b66 replaces 861919a77bfc2454ba714cfd3af52fc8 at path assets/art/kenneypixelplatformer/tiles/tile_0178.png 
+*** 8e32ab209961b1d438216a95d084da51 replaces 2c5121f548ed09b43a6808e5443ed07c at path assets/art/kenneypixelplatformer/tiles/tile_0179.png 
+*** 25b5e53878c0b4742b74e5c342536ef1 replaces e5b216ce988d5a3449f728dff07bcbc1 at path assets/art/kenneypixelplatformer/tilesheet (backgrounds).txt 
+*** b6c88c80eec6f934a8acb70f8c30ff59 replaces dfc69ba704de2aa49987dfe7e43b0756 at path assets/art/kenneypixelplatformer/tilesheet (characters).txt 
+*** 25b205beb64fa7a409efc322d1b76108 replaces 47242aa717e26b441846fb8be3bfe8b0 at path assets/art/kenneypixelplatformer/tilesheet (tiles).txt 
+*** 2c4e2e27ae053a949893fe02ef076bf3 replaces d512522e391164f44a953d1541dc8b07 at path assets/art/kenneypixelplatformer/visit kenney.url 
+*** 0a0ca48cdd58ca74493e4655ae772787 replaces ef486166ce1e5404197763359bde2086 at path assets/art/kenneypixelplatformer/visit patreon.url 
+*** 8831d01eaecdea74495cbb3be440b587 replaces 2b49074222d269546a2dbd09bb95ef22 at path assets/art/opengameart/playerframes/candidate_02.png 
+*** cd61cd0348109084090990cb70039f46 replaces 82f308e85e6c2514bb68b75867490dbb at path assets/art/opengameart/playerframes/candidate_03.png 
+*** a8611c8ebdd84ea4fba87a7b0a613b78 replaces 11f13451d4b2c864c84a496af12ce6c4 at path assets/art/opengameart/playerframes/candidate_04.png 
+*** 228a0db2740091d4bb56d444e208fc57 replaces c6cb8f9394cea8a4da4abe6c291feb0e at path assets/art/opengameart/playerframes/candidate_09.png 
+*** 4d368b4256a45014a9061836dc12884f replaces e3009e35dce986e4891c904710a5925b at path assets/art/opengameart/playerframes/candidate_11.png 
+*** adeb8d797b4fbb74bb7d1a779d10510c replaces 9781a46a9631c0e468188947d02d0ac9 at path assets/art/opengameart/playerframes/candidate_12.png 
+*** 4e6f1515172d3b84a8a10f591172cd10 replaces 35d41bcca7e92a847a0701a22a09d166 at path assets/art/opengameart/playerframes/player_idle.png 
+*** 6e031eeab7ca1c6488af1f01710a60c4 replaces c364962ce88ded94e86992f5681da015 at path assets/art/opengameart/playerframes/player_jump.png 
+*** be6aabd12b22f8743ad5a530926b951d replaces 0d68c8ecaccf35b46888a08ac98c87c5 at path assets/art/opengameart/playerframes/player_run_1.png 
+*** b9b11cd021cc71940bb293b2a284906b replaces 08c77b7092d169e45b7d809e31bb2b2f at path assets/art/opengameart/playerframes/player_run_2.png 
+*** c91fe61ac26c7d24ba16e89788be2751 replaces 5dd6bc9af0fca764b833171ea6f815b5 at path assets/art/opengameart/playerframes/player_run_3.png 
+*** 079b11370e1eb7f45b46b1549a091278 replaces a1959b8d195a57a43821246e1272d74a at path assets/art/opengameart/playerframes/player_run_4.png 
+*** 305d972d732596246a561b14f2069e42 replaces 0edb6d24d6b714a4cb7558124e38ebb9 at path assets/art/opengameart/platformer_player_sheet.png 
+*** 662437b0b2f91134ba59e9c7a99aeb3c replaces 133049d7979434c45990d4ae8b435bae at path assets/art/third_party_assets.md 
+*** c18988c1641758a43ad4a09d8fa559b3 replaces 0c496e9dda8f1ca4cb910031252b19b2 at path assets/editor/supermariodemoscenebuilder.cs 
+*** fc5d5f6e2278aa54f939efc26ce65061 replaces fee28e092769a4844b054b0d2c929769 at path assets/scripts/camera/camerafollow2d.cs 
+*** 0e97fe6c00f721146a0b5563fef58573 replaces 54cfcd77d413fde4199a26dae059cc8c at path assets/scripts/environment/endleveltrigger.cs 
+*** a46ef8db3fed8e74c94ddc25a73b0530 replaces 98980aa8cd918d54a91f5a69363f99a1 at path assets/scripts/environment/nextlevelscreen.cs 
+*** d3d96f68f6f0eff458b13639c1fe9b74 replaces fc9e727bbca0d9e47a0b1fa53a1cebc4 at path assets/scripts/environment/parallaxlayer2d.cs 
+*** 49da5c211f5d7b94eb9849f7ff871d21 replaces f08d17c91d3e79c44ba6aacd6fd17302 at path assets/scripts/gameplay/coin.cs 
+*** e0057d7ac7caeaa459a94724731cb355 replaces 88a2ebb6f9bd4664c84b4775e8d9a67d at path assets/scripts/gameplay/enemycontroller.cs 
+*** 6c49741ed82df8a45a4ab119164be476 replaces cf53d7c30f5eeb44cbccd8915bd4cc5c at path assets/scripts/gameplay/gamemanager.cs 
+*** e8d834a3eda9333488a0f955ad138a6e replaces 1c47ae8e7d6a18c468b71d4abc50cca0 at path assets/scripts/gameplay/playeranimation2d.cs 
+*** 8a8be69341a1e294a844acde257d341c replaces b9b1a855ec1d4154c97f05d1dc1a625f at path assets/scripts/gameplay/playercontroller.cs 
+*** b32abd1c9d73a4cce8389f084ac12b11 replaces f23e485a0cfdea846aa8aa93f213b4ca at path packages/com.unity.ads@1.0.7/editor/resources/android/builds/unity-ads.aar 
+*** 10bf81265ad87424d946598c575f45a0 replaces 021dac2b590ec114890cafa551980b76 at path packages/com.unity.ads@1.0.7/editor/resources/editor/landscape.jpg 
+*** 1b32bcce201b4494ea8848326290c5d5 replaces 8e428fed202fd574b9c45ba0a80b8f33 at path packages/com.unity.ads@1.0.7/editor/resources/editor/portrait.jpg 
+*** 7927683d1fc5848b5abfb54ebb1028ec replaces d4daa65cc8a95ce479c2239cc2ad3860 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsinapppurchasemetadata.h 
+*** 1322fd896bbb15bb6e335591b766ae62 replaces 584653f56e679b948b577d2d9ba199b8 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsjsonstorage.h 
+*** b52e557db2c2b4eebb10444f1d582029 replaces 3c4f1473891f3a346aa192a814afce91 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsmediationmetadata.h 
+*** 86c008322e7c647149878156c5b81940 replaces 2eefcd2fe55499d44bf9774b37650339 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsmetadata.h 
+*** 453f100e6bdae4dfd9e655927819dc85 replaces c2390803131bc6443a43e5c85026716a at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/uadsplayermetadata.h 
+*** c99bfe4fc4e5c4dc3917c14075acd117 replaces 6a563e223ee93fc429a57a992ab5c8a4 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/unityads.h 
+*** a6842a74831964edc8fefa1c0aed89dc replaces 963cb9105f385d141b6f0a351d1d9396 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/unityadsextended.h 
+*** ce4395ccdb12cf62fca756358be1a892 replaces d0cc9c137a775dd4292fb89ccef8c25a at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/headers/unityadsunitydelegate.h 
+*** cc1b50b5501f748da8bec762294d9136 replaces 694d279502deb4143a6a5e175661f1a3 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/info.plist 
+*** c5ba7626a737840ff88a3bd84b100482 replaces e968c9f2c287a1d42a41697546a24b8a at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/modules/module.modulemap 
+*** d1c1a2d988f5148fd9ab17b2460d271e replaces 68378864a1956c74686d83ae79828cb8 at path packages/com.unity.ads@1.0.7/editor/resources/ios/builds/unityads.framework/unityads 
+*** a342381d77833427fa10621e38fbae10 replaces 38d659c54c6093c4a88b6f93e3eaccbe at path packages/com.unity.ads@1.0.7/editor/unityeditor.advertisements.dll 
+*** 6597c6ea86d36477081342001145d8d9 replaces b4ae6da653cce5f4e8376d455d6dab0e at path packages/com.unity.ads@1.0.7/editor/unityeditor.advertisements.dll.mdb 
+*** 4c6fe94acbb24417c988bab18cbd5209 replaces cd525dec4b8142e49833969028da2890 at path packages/com.unity.ads@1.0.7/license.md 
+*** 62772aad98ed04f0d955b7d20de61f7f replaces eeab14fc1646c6e4caead7cde82914e3 at path packages/com.unity.ads@1.0.7/readme.md 
+*** adab7787bd7d44c4a9d48b3aff189c47 replaces a48f2c065a5558447a545d48fbcd6a12 at path packages/com.unity.ads@1.0.7/unityengine.advertisements.dll 
+*** c452c88a87f3d48ae945e7bcf1b4a6ba replaces ee34e7ddcd195144eba036cf3c9448b2 at path packages/com.unity.ads@1.0.7/unityengine.advertisements.dll.mdb 
+*** dced8f6ea9f964e8e8e61574ea889d21 replaces c1902c9970097d141b4ffafa2439dc19 at path packages/com.unity.ads@1.0.7/package.json 
+*** 224ede67b4f3a4109bfec4d5cb161b05 replaces 44d6a918bb913c54fab1b890b2fcce48 at path packages/com.unity.analytics@1.0.1/editor/unityeditor.analytics.dll 
+*** fec197bad419341558f81f2ec8a05e18 replaces 64fc326e6d8238642b17fcc4e616a659 at path packages/com.unity.analytics@1.0.1/editor/unityeditor.analytics.dll.mdb 
+*** 15be9c691b85a41a39c18bee2f87e21b replaces e0131cc16db6bf94eb5d01d9d1df09e1 at path packages/com.unity.analytics@1.0.1/license.md 
+*** 2eb2d0388ed974b3cba47458803bd275 replaces 84b955d41d3c2d641a4ab228b20cd62e at path packages/com.unity.analytics@1.0.1/readme.md 
+*** 220224b43fc464c28bc0e8de8f54a432 replaces c309bb030efcf1f4aa86066885ed9f01 at path packages/com.unity.analytics@1.0.1/unityengine.analytics.dll 
+*** d607a67dc772b484da060e66a3d61a4e replaces 3d5fd88d9e4e23549a83de3cd09a4385 at path packages/com.unity.analytics@1.0.1/unityengine.analytics.dll.mdb 
+*** 510d1d319d2754ea4a47c6dd8c421ea0 replaces 14502e666c58d3745812939b5166978c at path packages/com.unity.analytics@1.0.1/package.json 
+*** f1045c695c5bf4fb7b8509687bc60fc0 replaces 434fc9a77a75b7b4e9a24432d1436d32 at path packages/com.unity.purchasing@1.0.1/editor/unityeditor.purchasing.dll 
+*** 9de9e8523c82543c5b3e40a4b51aa2c9 replaces f7a24ea740b61af468640317c3407b16 at path packages/com.unity.purchasing@1.0.1/editor/unityeditor.purchasing.dll.mdb 
+*** 65d58d50c3db54f979b1ffae3777d74b replaces 15bb170577505f14baf28078f289a90b at path packages/com.unity.purchasing@1.0.1/license.md 
+*** 90791303b72ec4ae198f99d637dfdf6c replaces 13de4926908f3a24faedfefdb91e694e at path packages/com.unity.purchasing@1.0.1/readme.md 
+*** b5f4343795a0e4626ac1fe4a9e6fce59 replaces e1db1415e272e404f940abf0e705d545 at path packages/com.unity.purchasing@1.0.1/unityengine.purchasing.dll 
+*** 86c18994495874297b469aaa57ef9b44 replaces 58ed67601dba1bb4ab1c2bb06d057a83 at path packages/com.unity.purchasing@1.0.1/unityengine.purchasing.dll.mdb 
+*** 44f39a74ca5ee4bf5936b17e901f251c replaces 3f1eb6d92915dca41964fa5dd4735354 at path packages/com.unity.purchasing@1.0.1/package.json 
+Refresh: elapses 6.686877 seconds
+Refresh: trashing asset 91268700a6d47c2488ecd7e4dac4d44d
+Refresh: trashing asset 8756811067e92e04f852b7bba3942e6e
+Refresh: trashing asset 963cb9105f385d141b6f0a351d1d9396
+Refresh: trashing asset 587bdc10233b3304db8ff8cd92b3a8ea
+Refresh: trashing asset f741ef1057b540946b8072dc56bab869
+Refresh: trashing asset 49939320f83ec684cbd604e886b797e1
+Refresh: trashing asset 3174be20088d686428e5f9811ca82452
+Refresh: trashing asset bd7c3130369b86f4d9531dd886e1a274
+Refresh: trashing asset ba4f8f40edba1034a9b472b23fa6df3d
+Refresh: trashing asset 3c4ed560926be844c9d9d48e31aa31a5
+Refresh: trashing asset 58ed67601dba1bb4ab1c2bb06d057a83
+Refresh: trashing asset 08c77b7092d169e45b7d809e31bb2b2f
+Refresh: trashing asset 6fcea6901fafde24dbe336642336b35e
+Refresh: trashing asset 2e7305a08f10fb047b12e733a27e8e17
+Refresh: trashing asset 9d7abac056a9a57498014518836c0f18
+Refresh: trashing asset 21165ec0c44d0e542a0ba648b04ec377
+Refresh: trashing asset 4b33f4e0cbd62f04a9d48e51db859b4f
+Refresh: trashing asset 071b47e0df0702e489470da71d75ec63
+Refresh: trashing asset 579419e015ce6274fa5de295a40495b3
+Refresh: trashing asset 94d94101f3c6b8f47954b98e71eadb34
+Refresh: trashing asset 5bf2c10180b92914e91db4a45c378fcf
+Refresh: trashing asset 6e8a44016b3b6c1459d05295bff16bcc
+Refresh: trashing asset 6e117d1130be264409c1211ee04fb572
+Refresh: trashing asset cc5a662136c323349b9e518635d473b1
+Refresh: trashing asset 7b325d21144aac84a84884ae9d394fca
+Refresh: trashing asset 0f5e4241f306d4540b687a46676fdbab
+Refresh: trashing asset 89bdf251ed5800842954ec784bee9db5
+Refresh: trashing asset 11f13451d4b2c864c84a496af12ce6c4
+Refresh: trashing asset 6b6a0a617a61ae147b3550ff558f475c
+Refresh: trashing asset 6a0b16918415fbd43921fbf79b53d6f6
+Refresh: trashing asset 04cb0da18136d524f83212d79d1a02e2
+Refresh: trashing asset 9280bda16c54ce74cad38ee84414e2ec
+Refresh: trashing asset e0131cc16db6bf94eb5d01d9d1df09e1
+Refresh: trashing asset dba29ec1591e23a4a92d6d2f023db80c
+Refresh: trashing asset bb8a14d1263f1b34e908f6af9003faf3
+Refresh: trashing asset 34eca3e16801aa840bd94eb7e7dcda70
+Refresh: trashing asset fb3259f1a733d704583f2a4d84d30e87
+Refresh: trashing asset afff300221a41234f83a8718547465de
+Refresh: trashing asset 9725b002e0661b246835fe5a5777e167
+Refresh: trashing asset 869711028681c0f46a5adfa802cd496c
+Refresh: trashing asset 06c97b02e0cb4624d9d7318bcc24294d
+Refresh: trashing asset 85abce028ab5b51488b3642bf25a5644
+Refresh: trashing asset 59ec8512d15d3c04fb10f6692dd7a053
+Refresh: trashing asset 4727d712863b12945902cde9a14159bd
+Refresh: trashing asset 9ca35b1263837f842a7659af17ec0a9c
+Refresh: trashing asset 4ce848228ecfaee499cd4baf4da0962f
+Refresh: trashing asset 6a563e223ee93fc429a57a992ab5c8a4
+Refresh: trashing asset 2b49074222d269546a2dbd09bb95ef22
+Refresh: trashing asset c10631622c2d62040b248b81c5bf82ed
+Refresh: trashing asset 6a7f458291faab0479e6797845673ab2
+Refresh: trashing asset 7b1da882c4147604d9c9ff8a962cea6f
+Refresh: trashing asset 34a19792b79b6a149a0a87d94d23103c
+Refresh: trashing asset 788ee3b281e1dc14ebce7cfcf7e477e4
+Refresh: trashing asset a52231d2bde51594f8cd4d37ff132c9f
+Refresh: trashing asset 6a176dd2e87263c488f70f034b16ae51
+Refresh: trashing asset ba1b2ee248ea5324e85dbab55730f4b8
+Refresh: trashing asset e5e20fe2eeb027843b6893db99b40db2
+Refresh: trashing asset 8a3434f2a52bd1a4cbdd5b5c9093655e
+Refresh: trashing asset e968c9f2c287a1d42a41697546a24b8a
+Refresh: trashing asset c2390803131bc6443a43e5c85026716a
+Refresh: trashing asset 36a12b03b7604fe459b87907b0b55137
+Refresh: trashing asset c309bb030efcf1f4aa86066885ed9f01
+Refresh: trashing asset d0cc9c137a775dd4292fb89ccef8c25a
+Refresh: trashing asset 612ffe13e08ff854cad473d535733625
+Refresh: trashing asset e8a4aa53a8594b448979d0bfdff73cbb
+Refresh: trashing asset 76a173738a1cbf3449540c5325599308
+Refresh: trashing asset 3c4f1473891f3a346aa192a814afce91
+Refresh: trashing asset 41d1b5738fc1527478cf7a192914e9e5
+Refresh: trashing asset 5c9e7673e4d274546bd71e82f8f99ab9
+Refresh: trashing asset d2eac793324276b4ba092e2f575747a5
+Refresh: trashing asset c6cb8f9394cea8a4da4abe6c291feb0e
+Refresh: trashing asset 67c643c3672f79b4b9b1a5d37d1f83ea
+Refresh: trashing asset cf53d7c30f5eeb44cbccd8915bd4cc5c
+Refresh: trashing asset b014cbc35a6bf3148bd2dd757143aa63
+Refresh: trashing asset 27b2f0d3c8a5d4c4eb7ff58145a43ff9
+Refresh: trashing asset 71938cd39f4d2c849ba6e82103e80e34
+Refresh: trashing asset 667442e3239af4144b70cb35ecb00fab
+Refresh: trashing asset 6602e2e349ee8444e966b7420018e43c
+Refresh: trashing asset ed4cd0f350dc541488f669d90a5dacfd
+Refresh: trashing asset bbce1604a8c8f2141a530f7141237bbf
+Refresh: trashing asset 92592604b69933146a57beb1f1272a3a
+Refresh: trashing asset 9faacf04c978a12468f6d91a5332785c
+Refresh: trashing asset 0edb6d24d6b714a4cb7558124e38ebb9
+Refresh: trashing asset 68378864a1956c74686d83ae79828cb8
+Refresh: trashing asset aea64084e18df8e40b61df24b2e9b857
+Refresh: trashing asset 30cde38482d77af488a858075b8d6768
+Refresh: trashing asset e8ffcd94d5b9d03468b392a04ebc85bf
+Refresh: trashing asset 2513a6b4734cd5e4592d25c65d0db2b6
+Refresh: trashing asset 84b955d41d3c2d641a4ab228b20cd62e
+Refresh: trashing asset cb7af5f4d956ade418b48ea64adc1e50
+Refresh: trashing asset 6774b7f4ded8fb647b99890d4c24de20
+Refresh: trashing asset 2dfab10513457b44d8beceecc1f4103b
+Refresh: trashing asset 15bb170577505f14baf28078f289a90b
+Refresh: trashing asset e1db1415e272e404f940abf0e705d545
+Refresh: trashing asset 56f19515d753c43408bffe6271d5632d
+Refresh: trashing asset d88c57156a8f9a94599fa7fdd7fcc8b7
+Refresh: trashing asset e2c072252a6c5804ba47cf2bf1335cc1
+Refresh: trashing asset c4b04d2591a33f74b8044a2aa0cb3719
+Refresh: trashing asset e3009e35dce986e4891c904710a5925b
+Refresh: trashing asset b9b1a855ec1d4154c97f05d1dc1a625f
+Refresh: trashing asset b71ecf550bd62ef438630bc8854c2915
+Refresh: trashing asset cf526b653460d844191cd675fdea2cb4
+Refresh: trashing asset 694d279502deb4143a6a5e175661f1a3
+Refresh: trashing asset 15f3df959d77d46408a428746b8d7dc8
+Refresh: trashing asset 4dab20a5d58476347bcb0dc2668e6da5
+Refresh: trashing asset 078fc3c5a8bc0d449bd5182aae7c562f
+Refresh: trashing asset 38d659c54c6093c4a88b6f93e3eaccbe
+Refresh: trashing asset de0e69c5bbf9e6846a1c69582130c77f
+Refresh: trashing asset 2d9110d532bc5c74a82f7a0080a34083
+Refresh: trashing asset 4116a3e5a9140814899f18b4394a2ec9
+Refresh: trashing asset 2c5121f548ed09b43a6808e5443ed07c
+Refresh: trashing asset 584653f56e679b948b577d2d9ba199b8
+Refresh: trashing asset 6f7537f51159cbe46b190f88d9632b64
+Refresh: trashing asset 4f4308f57a26b9e4eaf575fdf6f1c1d2
+Refresh: trashing asset a48f2c065a5558447a545d48fbcd6a12
+Refresh: trashing asset 8dbef316f0aa45546961abf6a1dc37db
+Refresh: trashing asset aa1c141646d094c41952aa881d47500a
+Refresh: trashing asset 9a84ed1622e8ec14cb56d37b753a22e6
+Refresh: trashing asset 13de4926908f3a24faedfefdb91e694e
+Refresh: trashing asset fe5a253658fcab04daf947d994e9fb5a
+Refresh: trashing asset a33d863679bf7f444b0f721b25d91aea
+Refresh: trashing asset 8f1cce36feae3964b98b6b73931ab967
+Refresh: trashing asset 1089d156dd7c7d8499df86fd29ebea89
+Refresh: trashing asset 50e7d756d6c107e4a806800d552f67e2
+Refresh: trashing asset ef486166ce1e5404197763359bde2086
+Refresh: trashing asset 14502e666c58d3745812939b5166978c
+Refresh: trashing asset e404e97639444794c842ec0287827ae4
+Refresh: trashing asset d843dd763303f974bb9626e7c748900f
+Refresh: trashing asset ac8cd2861b0cb854eb4410de181b2d1c
+Refresh: trashing asset bdabb786682d0aa4a8335b6e1e55fdc3
+Refresh: trashing asset ea51588670df41648b39609a93be3045
+Refresh: trashing asset ae10ea9674f07e540a3d5320beba9914
+Refresh: trashing asset b4ae6da653cce5f4e8376d455d6dab0e
+Refresh: trashing asset 88a2ebb6f9bd4664c84b4775e8d9a67d
+Refresh: trashing asset 5d7b35c6fb4acaf4a94aac31ae650064
+Refresh: trashing asset 020227c65390e1d4a98eab88e55b0c8e
+Refresh: trashing asset f1d11ec6f0046c74a9903564d5f8ae70
+Refresh: trashing asset 5c6153e60006c004f996be85a0bcee85
+Refresh: trashing asset 2c4be8e673ccbf742a4d030d09225f14
+Refresh: trashing asset 043ff917d312f1141ae43f4b4b7f9953
+Refresh: trashing asset edeb4d17346b50d4ba831a0b9cfc61af
+Refresh: trashing asset ef96a3271fcccc84ebb2fb9e4edd0754
+Refresh: trashing asset 1dadbf37dc636fe46ac27dfa0f9e0774
+Refresh: trashing asset 25b5046773755f043aef621b1b54eb0d
+Refresh: trashing asset 31f1d67726af02741969b4b4b51c6ef7
+Refresh: trashing asset b1ae4977b26932e429f186eef9b5ac15
+Refresh: trashing asset 54cfcd77d413fde4199a26dae059cc8c
+Refresh: trashing asset d185b0875de25dd42885e1855d42f14e
+Refresh: trashing asset 6a006b975e605ee4e913e45056a6f866
+Refresh: trashing asset 5d40b5a7c405f644a928d6fd1d1ff366
+Refresh: trashing asset e94438a7ed5d7ce4dac00950e654737b
+Refresh: trashing asset 861919a77bfc2454ba714cfd3af52fc8
+Refresh: trashing asset 434fc9a77a75b7b4e9a24432d1436d32
+Refresh: trashing asset 47242aa717e26b441846fb8be3bfe8b0
+Refresh: trashing asset dfc69ba704de2aa49987dfe7e43b0756
+Refresh: trashing asset f7a24ea740b61af468640317c3407b16
+Refresh: trashing asset 836c1eb789221b0439d1cfc80fec4aff
+Refresh: trashing asset 6aced5d7c42450f4092c9fad4ef7337b
+Refresh: trashing asset 5532e8d7d2ac6c44293f354bcf1c90c6
+Refresh: trashing asset 133049d7979434c45990d4ae8b435bae
+Refresh: trashing asset a26076e7e6e328c48b6799fb04f1bd49
+Refresh: trashing asset 44d6a918bb913c54fab1b890b2fcce48
+Refresh: trashing asset c8aac828eec241f4aa2771ee44a5a7d4
+Refresh: trashing asset 33097658a42e86d45ac24d7a11aba893
+Refresh: trashing asset 98980aa8cd918d54a91f5a69363f99a1
+Refresh: trashing asset 2aee92e886198524490b9fd9f25d829b
+Refresh: trashing asset 82f308e85e6c2514bb68b75867490dbb
+Refresh: trashing asset 28e79ae8006c94b4a85eecb5385f7550
+Refresh: trashing asset ebb41bf8b210c2e498e45d0ea092f914
+Refresh: trashing asset fee28e092769a4844b054b0d2c929769
+Refresh: trashing asset ba8fcf091136d4245919840e60725438
+Refresh: trashing asset 4f888019114298d488464ca2bcf3116c
+Refresh: trashing asset 76cf7139020f0274f8ac64525e600e3b
+Refresh: trashing asset de5e1339d319d9c4e84b51eb88af78bc
+Refresh: trashing asset c49ed0690febb9e4e9797ebf3f77a935
+Refresh: trashing asset 076f4869541dd6f4796d8311a20cfbd9
+Refresh: trashing asset 050e3d69d9f435c4391da23d30a1d721
+Refresh: trashing asset 710db479015808f49b10d163b1088912
+Refresh: trashing asset cb7a7d890ce2dde4881300edce24bde2
+Refresh: trashing asset c1902c9970097d141b4ffafa2439dc19
+Refresh: trashing asset a3cfeca9522289841a143ba1a306bd49
+Refresh: trashing asset 6010c4b9aa1a1b94fbb186262f471ce5
+Refresh: trashing asset 5e4565b9b747b6c41a65db8ebe9fc0b0
+Refresh: trashing asset f08d17c91d3e79c44ba6aacd6fd17302
+Refresh: trashing asset 3f1eb6d92915dca41964fa5dd4735354
+Refresh: trashing asset 8101b6e9aaee0ad46931c44cf4d20298
+Refresh: trashing asset ccd5f0f9c84f3024b9f9c623451e0225
+Refresh: trashing asset 7254e6f9f7477bd4c899604a454cb97a
+Refresh: trashing asset 6b3e121a3cd002f4eba60f1517614086
+Refresh: trashing asset 2a6ead2a6670639469d43913bec3242d
+Refresh: trashing asset a4ba314ac728c394b98768fd33bee9ea
+Refresh: trashing asset 4610734ab8010e64094b55f3eb5df65a
+Refresh: trashing asset 48873d4a172eab84699ecb4a00fb70fd
+Refresh: trashing asset 76ab7e4a9e65d494fac4907d9a372633
+Refresh: trashing asset bd60005aaf0f2c64ea230136364ab0f0
+Refresh: trashing asset e82bb05a060fdc9428946c48125be784
+Refresh: trashing asset 2d1ed05ae64555a4fa9d95473f72709e
+Refresh: trashing asset a74ed75a7292c824db61cea038954daf
+Refresh: trashing asset f23e485a0cfdea846aa8aa93f213b4ca
+Refresh: trashing asset 2c8ec95a687253f47b9e0251bdb8f864
+Refresh: trashing asset 17eb1f5ac7dfbfc42b472c5105a0071a
+Refresh: trashing asset 9781a46a9631c0e468188947d02d0ac9
+Refresh: trashing asset 6c29a56a2bb6289469f30b84a1cf8054
+Refresh: trashing asset 3006496ab10f6db46b83ee92f355c3fd
+Refresh: trashing asset a336278abe1811b4a8e476f11fea45b5
+Refresh: trashing asset 2f344a8a3f8a6bf4e9734362f452c770
+Refresh: trashing asset aa9d7c8a87122004bb4f0a32dc192a66
+Refresh: trashing asset 5dd6bc9af0fca764b833171ea6f815b5
+Refresh: trashing asset 3d0bc9aae26a88c48b1794ed67ce6920
+Refresh: trashing asset 28e4c4ea906a3434baa5f6780059a9e5
+Refresh: trashing asset 21ff45ea537fc6442b77a6008d618493
+Refresh: trashing asset afd4b3faddd1b4d41ae59ee523f4f544
+Refresh: trashing asset 013cc7fa81ee9c247abb6c02692cc5da
+Refresh: trashing asset 825b9c2b3ed39774cb7caf73d5160b8b
+Refresh: trashing asset 021dac2b590ec114890cafa551980b76
+Refresh: trashing asset d252713bfe743e347b8ae9ef454fa3dc
+Refresh: trashing asset 3c9e674bffb4e394c93efdba14a66e83
+Refresh: trashing asset d390055b3b4333c47a407c1348392ded
+Refresh: trashing asset 95f96a6be384f7e4b9a57fb6ec910acb
+Refresh: trashing asset c80d617b767a93940b5b8833fd3bc5cd
+Refresh: trashing asset fc9e727bbca0d9e47a0b1fa53a1cebc4
+Refresh: trashing asset d390e27ba1477854dae35de4622d62c7
+Refresh: trashing asset 982da09b703fe614b9626c2c7bce0d02
+Refresh: trashing asset 9769889b5d95d4e46a84dfb7f6ae3b10
+Refresh: trashing asset 02d770ab373b82645a53f3d8fc3076e3
+Refresh: trashing asset fe103cabb587c864eb7cff732e09495d
+Refresh: trashing asset 737670db9bbc6e0479fb4faf8456d277
+Refresh: trashing asset 86358debb276463498c2b3ca1b77e287
+Refresh: trashing asset 3a5786fbc899afa45bb48a7101d8fbc0
+Refresh: trashing asset 107df31c0bde6ee409133a028b7ee95a
+Refresh: trashing asset dc44212c0803ee2408f53f53bb453751
+Refresh: trashing asset c364962ce88ded94e86992f5681da015
+Refresh: trashing asset 4909b43cba1400041a4af3daf376f72a
+Refresh: trashing asset 223b2b4cd0e92d9428cffcca3c3b2629
+Refresh: trashing asset c328ae4c45de62342b6f18cfc1ab8547
+Refresh: trashing asset dee2b35cbf28a80499d51cfe5d3b7f57
+Refresh: trashing asset 20b7f35cb5a1bcb468e2c819a3a4dc42
+Refresh: trashing asset d4daa65cc8a95ce479c2239cc2ad3860
+Refresh: trashing asset 2065e95ca3e109a4b836b1c258c802f1
+Refresh: trashing asset e672497cd7cf0094aad0d0dbcea6d9b9
+Refresh: trashing asset 50484c7cd8fa1024f9f83931ff0f6ba2
+Refresh: trashing asset 932dec7c2476dd6489b4dd1db20e316b
+Refresh: trashing asset f0400b9ce1cd6d84abaa32be3c4f7d2e
+Refresh: trashing asset de7043ac002646446b9dee37b82c6880
+Refresh: trashing asset 7d2a93bceef85da44b91ed2a3ccbff28
+Refresh: trashing asset 705c46bc7fc9ed549af2a75d39a8b357
+Refresh: trashing asset 05fb69bc4ba2553409996ab5d87816c4
+Refresh: trashing asset cfb841cc7eb11424f8249df2338ddc2f
+Refresh: trashing asset 35d41bcca7e92a847a0701a22a09d166
+Refresh: trashing asset f25bb1dc11f75e7488fa2b93ed3e620d
+Refresh: trashing asset 083e69dcf6d73d34ca1463ff264e11b6
+Refresh: trashing asset 0d68c8ecaccf35b46888a08ac98c87c5
+Refresh: trashing asset cd525dec4b8142e49833969028da2890
+Refresh: trashing asset eeab14fc1646c6e4caead7cde82914e3
+Refresh: trashing asset 679df7fcd191d824c8a5fd338c684ca3
+Refresh: trashing asset 685c8cfc8cbdb5a4f89f82a25bd8c553
+Refresh: trashing asset 8b0c5efc521b932448467411c1c92917
+Refresh: trashing asset 5ab7ee1df286adf4293ebfb2b1f98911
+Refresh: trashing asset 1f4a612de7425b8428c2e493473aa751
+Refresh: trashing asset 73f1082d94ec9264cb93850b106139d8
+Refresh: trashing asset c4f6892d1e81a974c844b3d1c48a0185
+Refresh: trashing asset 0410224da4199e5469f7b459e98ef022
+Refresh: trashing asset 37e3135dbbc2128488f41f3122f4b937
+Refresh: trashing asset 8779d36d082742244bd5b948adf21ec9
+Refresh: trashing asset 56a91e7d57d930f4da6140ff8b39dff2
+Refresh: trashing asset 9924278d20f3b914f9f35d5a3fb58130
+Refresh: trashing asset 3d5fd88d9e4e23549a83de3cd09a4385
+Refresh: trashing asset a1959b8d195a57a43821246e1272d74a
+Refresh: trashing asset 0c496e9dda8f1ca4cb910031252b19b2
+Refresh: trashing asset 4b4439bdef7015041b40cb28ba521fdb
+Refresh: trashing asset 6097e4dd4633a834abd879252c73ab2a
+Refresh: trashing asset ee34e7ddcd195144eba036cf3c9448b2
+Refresh: trashing asset 8e428fed202fd574b9c45ba0a80b8f33
+Refresh: trashing asset 692debfd2d3946d42a3e352076807436
+Refresh: trashing asset 7fe87b1e630660346a6f516c0d4d5de1
+Refresh: trashing asset d512522e391164f44a953d1541dc8b07
+Refresh: trashing asset b41b9c2ec71fa62409945e971e888027
+Refresh: trashing asset c707184e1e139984cb1448386f897eb8
+Refresh: trashing asset 98ad5f4e3d94a94438e7cbe2e9cde114
+Refresh: trashing asset 16e08d5efb22c094aaca2598bbeeb91b
+Refresh: trashing asset 392a9d5e42ba7ea418c3656117c52efc
+Refresh: trashing asset 64fc326e6d8238642b17fcc4e616a659
+Refresh: trashing asset c82a096e5f3ab1e4281db55bdddef292
+Refresh: trashing asset 473c567e42e60c24e9f24257e76d068d
+Refresh: trashing asset e32cfa7e88a920c488642d70b47f11aa
+Refresh: trashing asset 1c47ae8e7d6a18c468b71d4abc50cca0
+Refresh: trashing asset 5a2cbc9e359ff9946861475db24b15c8
+Refresh: trashing asset 4bc76abee243ffa408b0c84672e0c4ef
+Refresh: trashing asset e5b216ce988d5a3449f728dff07bcbc1
+Refresh: trashing asset 95aafbde0213d2143bff5ee22e42305c
+Refresh: trashing asset c61ec6ee6fc8e2d4a8d8b5a2e541848d
+Refresh: trashing asset abcd340f196d88a49901dd631cf2f863
+Refresh: trashing asset 2eefcd2fe55499d44bf9774b37650339
+Refresh: trashing asset 20b9c53f30959f44ebba9a7ac68f99e8
+Refresh: trashing asset 8cb2854f54b6d93499073b9f3f093061
+Refresh: trashing asset 8909cb4fadba5f1418e90384aadea020
+Refresh: trashing asset 1b69b85fe17bf30439c19291596db7f5
+Refresh: trashing asset c44bfd5f49e1fdc489b05d186b753a87
+Refresh: trashing asset 2080268fbf76aaa4aa0732bacc4d4114
+Refresh: trashing asset 150bbf8f31d8d3346aa93dadf3de2721
+Refresh: trashing asset 1a4a349f6eedc6843b089342b65884e8
+Refresh: trashing asset b1b425afbf23d8a4d999afc0a6c49f79
+Refresh: trashing asset 7efb48bfe9f1ce24bb566947e4545928
+Refresh: trashing asset 0d722ebf5b103074a9ecfddaf57a5e3d
+Refresh: trashing asset e77e9fbfcf9dda246ae8b7ff1b1149b6
+Refresh: trashing asset 92a3a1df5aca93a4983ecf66450e1fe7
+Refresh: trashing asset 1f6de7ef6d3f5fd4293c42dfa4563c6c
+Refresh: trashing asset cd924def43b097d4e84abb0810508d96
+Refresh: trashing asset b2facfef6cd11c649a5028e95f416d44
+Refresh: trashing asset 2eb7fcffdce9a584da376b85fe68c81c
+Refresh: trashing asset 352f7fffab239104c903245598df1c98
+Updating Assets - GUID: 00000000000000001000000000000000...
+ done. [Time: 31.198400 ms] 
+Updating ProjectSettings/InputManager.asset - GUID: 00000000000000002000000000000000...
+ done. [Time: 15.360200 ms] 
+Updating ProjectSettings/TagManager.asset - GUID: 00000000000000003000000000000000...
+ done. [Time: 15.172900 ms] 
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 17.485400 ms] 
+Updating ProjectSettings/NavMeshAreas.asset - GUID: 00000000000000004100000000000000...
+ done. [Time: 9.205600 ms] 
+Updating Library/BuildPlayer.prefs - GUID: 00000000000000005000000000000000...
+ done. [Time: 13.760900 ms] 
+Updating ProjectSettings/Physics2DSettings.asset - GUID: 00000000000000005100000000000000...
+ done. [Time: 8.404300 ms] 
+Updating ProjectSettings/AudioManager.asset - GUID: 00000000000000006000000000000000...
+Audio: FMOD Profiler initialized on port 54900
+ done. [Time: 85.768200 ms] 
+Updating ProjectSettings/GraphicsSettings.asset - GUID: 00000000000000006100000000000000...
+ done. [Time: 8.773400 ms] 
+Updating ProjectSettings/TimeManager.asset - GUID: 00000000000000007000000000000000...
+ done. [Time: 7.684100 ms] 
+Updating ProjectSettings/ClusterInputManager.asset - GUID: 00000000000000007100000000000000...
+ done. [Time: 8.999300 ms] 
+Updating ProjectSettings/DynamicsManager.asset - GUID: 00000000000000008000000000000000...
+ done. [Time: 10.130800 ms] 
+Updating ProjectSettings/QualitySettings.asset - GUID: 00000000000000009000000000000000...
+ done. [Time: 8.491500 ms] 
+Updating ProjectSettings/NetworkManager.asset - GUID: 0000000000000000a000000000000000...
+ done. [Time: 118.606400 ms] 
+Updating ProjectSettings/UnityConnectSettings.asset - GUID: 0000000000000000a100000000000000...
+ done. [Time: 15.305100 ms] 
+Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
+ done. [Time: 10.380500 ms] 
+Updating ProjectSettings/EditorSettings.asset - GUID: 0000000000000000c000000000000000...
+ done. [Time: 11.696400 ms] 
+Updating Packages/com.unity.ads@1.0.7 - GUID: 87244e00e83c1e540bb3234f7d2f79fb...
+ done. [Time: 8.431000 ms] 
+Updating Assets/Scripts - GUID: 8e3952eb497934847b20aa699a565f95...
+ done. [Time: 11.685500 ms] 
+Updating Assets/Art - GUID: c5eeb71b31f5ffc48b55eb54537c94c6...
+ done. [Time: 10.131200 ms] 
+Updating Packages/com.unity.purchasing@1.0.1 - GUID: cebe630fc5ac68d4996fd820e2d94fdd...
+ done. [Time: 11.605200 ms] 
+Updating Assets/Scenes - GUID: cf6d72ee0ae772f40936b6e102b72b7b...
+ done. [Time: 10.701800 ms] 
+Updating Packages/com.unity.analytics@1.0.1 - GUID: dc735d92df6c37041b61156abb6d2de2...
+ done. [Time: 8.407100 ms] 
+Updating Assets/Editor - GUID: fd6d670c06d51ee4daad6faa64e4cb62...
+ done. [Time: 10.065600 ms] 
+Updating Packages/com.unity.analytics@1.0.1/License.md - GUID: 15be9c691b85a41a39c18bee2f87e21b...
+ done. [Time: 55.470400 ms] 
+Updating Packages/com.unity.analytics@1.0.1/README.md - GUID: 2eb2d0388ed974b3cba47458803bd275...
+ done. [Time: 9.873700 ms] 
+Updating Packages/com.unity.ads@1.0.7/License.md - GUID: 4c6fe94acbb24417c988bab18cbd5209...
+ done. [Time: 8.947400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer - GUID: 5fad3cb17d2155b48914ba1df9e78afd...
+ done. [Time: 10.033500 ms] 
+Updating Packages/com.unity.ads@1.0.7/README.md - GUID: 62772aad98ed04f0d955b7d20de61f7f...
+ done. [Time: 13.183400 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/License.md - GUID: 65d58d50c3db54f979b1ffae3777d74b...
+ done. [Time: 8.760000 ms] 
+Updating Assets/Art/THIRD_PARTY_ASSETS.md - GUID: 662437b0b2f91134ba59e9c7a99aeb3c...
+ done. [Time: 10.049500 ms] 
+Updating Assets/Scripts/Gameplay - GUID: 6a5ef0d246e37d84190ea689933d7ad5...
+ done. [Time: 7.941800 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll.mdb - GUID: 86c18994495874297b469aaa57ef9b44...
+ done. [Time: 14.827700 ms] 
+Updating Assets/Scripts/Camera - GUID: 8d142b52211178f48a4c33170058932d...
+ done. [Time: 9.236800 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/README.md - GUID: 90791303b72ec4ae198f99d637dfdf6c...
+ done. [Time: 9.448400 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor - GUID: a37e18887fa954edf92bc36bc353b879...
+ done. [Time: 7.707700 ms] 
+Updating Assets/Scripts/Environment - GUID: ada248574a2a414499d8f69742d4ae2a...
+ done. [Time: 15.337500 ms] 
+Updating Packages/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll.mdb - GUID: c452c88a87f3d48ae945e7bcf1b4a6ba...
+ done. [Time: 14.525000 ms] 
+Updating Packages/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll.mdb - GUID: d607a67dc772b484da060e66a3d61a4e...
+ done. [Time: 10.271000 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/Editor - GUID: d929147d9f78c487397abb40f2c257b0...
+ done. [Time: 7.948800 ms] 
+Updating Assets/Art/OpenGameArt - GUID: f0bf122f33ed9a94093fdc2db4d46c61...
+ done. [Time: 9.645800 ms] 
+Updating Packages/com.unity.analytics@1.0.1/Editor - GUID: f0f8d67297461495185169157c24c66b...
+ done. [Time: 8.293000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Visit Patreon.url - GUID: 0a0ca48cdd58ca74493e4655ae772787...
+ done. [Time: 69.100800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Visit Kenney.url - GUID: 2c4e2e27ae053a949893fe02ef076bf3...
+ done. [Time: 9.650300 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames - GUID: 359e250bc2c699c4f9432bae2ae17bb6...
+ done. [Time: 8.444200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiled - GUID: 3fcf268944edb0948a97641de3afde3c...
+ done. [Time: 8.017300 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll.mdb - GUID: 6597c6ea86d36477081342001145d8d9...
+ done. [Time: 9.366500 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources - GUID: 7c3a5d6e39b874f468b2691537168513...
+ done. [Time: 7.961600 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll.mdb - GUID: 9de9e8523c82543c5b3e40a4b51aa2c9...
+ done. [Time: 9.600000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap - GUID: b66eec555a7880a48a79fda9ff129898...
+ done. [Time: 8.274300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Construct 3 - GUID: bc0b064d804222b4fa52880fd70f0715...
+ done. [Time: 8.745300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles - GUID: bd7b994709d75784bb567f80c5bb75cf...
+ done. [Time: 11.392800 ms] 
+Updating Packages/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll.mdb - GUID: fec197bad419341558f81f2ec8a05e18...
+ done. [Time: 9.427800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds - GUID: 0bf5ae9957ede464fbd79204fef92538...
+ done. [Time: 13.722400 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Android - GUID: 48986928cc2a449dbaecdd1654bc9bf6...
+ done. [Time: 10.266700 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS - GUID: 4f234578336894dc081edf696f2ff5f2...
+ done. [Time: 10.023300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Construct 3/Pixel Platformer.c3p - GUID: 542aff7134af18b419af0682f621f8b6...
+ done. [Time: 28.518700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiled/tileset-characters.tsx - GUID: 7e7eca444a91a974da51725e1883b827...
+ done. [Time: 23.692300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiled/tilemap-example-b.tmx - GUID: 988d2e332fe8f1547a90bf0ff0e12a05...
+ done. [Time: 16.905400 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Editor - GUID: 99ddb49592ff84811804420a1910cb89...
+ done. [Time: 10.266100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters - GUID: aa1ce9418dd3994488a2f694783454e9...
+ done. [Time: 11.733000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiled/tilemap-example-a.tmx - GUID: d61fc5d86e170f743a1d721763cde825...
+ done. [Time: 12.463400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiled/tileset-tiles.tsx - GUID: e8a6e8e130daab642bc96707877b0b9e...
+ done. [Time: 13.058100 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds - GUID: 2d4d46c70fdd242668a56e99799e8540...
+ done. [Time: 8.031600 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Android/builds - GUID: f28fcced5af094cf78eb4e1109a71981...
+ done. [Time: 12.470800 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework - GUID: eeed6954b3c264ca0b28a92aa6289bf0...
+ done. [Time: 14.314300 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Modules - GUID: 3cebe1a96232b44388b30b2f72dde434...
+ done. [Time: 8.118200 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers - GUID: 6e7c8cfeedae74eb3a562055e069e441...
+ done. [Time: 18.945000 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Info.plist - GUID: cc1b50b5501f748da8bec762294d9136...
+ done. [Time: 20.852800 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/UnityAds - GUID: d1c1a2d988f5148fd9ab17b2460d271e...
+ done. [Time: 14.522500 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSJsonStorage.h - GUID: 1322fd896bbb15bb6e335591b766ae62...
+ done. [Time: 14.853200 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSPlayerMetaData.h - GUID: 453f100e6bdae4dfd9e655927819dc85...
+ done. [Time: 15.827100 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSInAppPurchaseMetaData.h - GUID: 7927683d1fc5848b5abfb54ebb1028ec...
+ done. [Time: 11.775800 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMetaData.h - GUID: 86c008322e7c647149878156c5b81940...
+ done. [Time: 10.567700 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsExtended.h - GUID: a6842a74831964edc8fefa1c0aed89dc...
+ done. [Time: 9.788000 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UADSMediationMetaData.h - GUID: b52e557db2c2b4eebb10444f1d582029...
+ done. [Time: 10.572800 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Modules/module.modulemap - GUID: c5ba7626a737840ff88a3bd84b100482...
+ done. [Time: 11.229200 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAds.h - GUID: c99bfe4fc4e5c4dc3917c14075acd117...
+ done. [Time: 8.333200 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/iOS/builds/UnityAds.framework/Headers/UnityAdsUnityDelegate.h - GUID: ce4395ccdb12cf62fca756358be1a892...
+ done. [Time: 10.245700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/OSXUniversal/AudioPluginOculusSpatializer.bundle - GUID: 32188fd89022c154c81befa2f0e00be0...
+ done. [Time: 9.357300 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/OSXUniversal/OVRPlugin.bundle - GUID: 5782f9e9e6e0bb94bac99aeea24814fc...
+ done. [Time: 9.721400 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/OSXUniversal/openvr_api.bundle - GUID: d33d54853fd0f48e0ac8a63ea91e6626...
+ done. [Time: 10.423900 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll - GUID: 12fd8a0055b84bb59e84c9835a37e333...
+ done. [Time: 51.788800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll - GUID: 1c6d1fbb51834b64847b1b73a75bfc77...
+ done. [Time: 37.825400 ms] 
+Updating Packages/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll - GUID: 220224b43fc464c28bc0e8de8f54a432...
+ done. [Time: 63.620800 ms] 
+Updating Packages/com.unity.analytics@1.0.1/Editor/UnityEditor.Analytics.dll - GUID: 224ede67b4f3a4109bfec4d5cb161b05...
+ done. [Time: 61.367700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll - GUID: 3a84de5cd0624681b6b6dcd8921d912a...
+ done. [Time: 24.662200 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll - GUID: 4113173d5e95493ab8765d7b08371de4...
+ done. [Time: 56.719200 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll - GUID: 4a3ecb1425d14502837abea459cf2b70...
+ done. [Time: 31.495700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll - GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8...
+ done. [Time: 33.146000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll - GUID: 4ba2329b63d54f0187bcaa12486b1b0f...
+ done. [Time: 20.243000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll - GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1...
+ done. [Time: 185.043700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll - GUID: 5f32cd94baa94578a686d4b9d6b660f7...
+ done. [Time: 43.712000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll - GUID: 6a10b2909283487f913b00d94cd3faf5...
+ done. [Time: 50.693600 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll - GUID: 7668179ede524d6396c8b7d84461ea29...
+ done. [Time: 67.262100 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll - GUID: 80a3616ca19596e4da0f10f14d241e9f...
+ done. [Time: 54.573700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll - GUID: 844f815391db42d49455cbf1a7bfc434...
+ done. [Time: 60.516300 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll - GUID: 870353891bb340e2b2a9c8707e7419ba...
+ done. [Time: 46.196300 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll - GUID: a342381d77833427fa10621e38fbae10...
+ done. [Time: 20.511900 ms] 
+Updating Packages/com.unity.ads@1.0.7/UnityEngine.Advertisements.dll - GUID: adab7787bd7d44c4a9d48b3aff189c47...
+ done. [Time: 43.724600 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll - GUID: adebbd281f1a4ef3a30be7f21937e02f...
+ done. [Time: 30.833400 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll - GUID: b5da970776034f77a070d99423d68791...
+ done. [Time: 31.770000 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll - GUID: b5f4343795a0e4626ac1fe4a9e6fce59...
+ done. [Time: 23.983000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll - GUID: b8a0574e92bd43a59e19d6c3c6ae54c7...
+ done. [Time: 37.300700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll - GUID: c768acbc9cf24d398488bb4c93b91288...
+ done. [Time: 15.454600 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll - GUID: dc443db3e92b4983b9738c1131f555cb...
+ done. [Time: 42.380800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll - GUID: e4f4cf1b9b434137a499903a7a1d651a...
+ done. [Time: 45.001500 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll - GUID: ead147da21254ff9a0a936bdd75e1680...
+ done. [Time: 36.154900 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll - GUID: ed7343f30e3843b3afda8f8b02669cea...
+ done. [Time: 22.492900 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll - GUID: f1045c695c5bf4fb7b8509687bc60fc0...
+ done. [Time: 16.602800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll - GUID: f5f67c52d1564df4a8936ccd202a3bd8...
+ done. [Time: 57.099800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll - GUID: f70555f144d8491a825f0804e09c671c...
+ done. [Time: 59.405700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll - GUID: f7b54ff4a43d4fcf81b4538b678e0bcc...
+ done. [Time: 32.469200 ms] 
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 6.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.476 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.0285031s.
+Native extension for WindowsStandalone target not found
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll - GUID: 405b9b51bb344a128608d968297df79c...
+ done. [Time: 27.306200 ms] 
+Updating Assets/Scripts/Environment/EndLevelTrigger.cs - GUID: 0e97fe6c00f721146a0b5563fef58573...
+ done. [Time: 54.447600 ms] 
+Updating Assets/Editor/PortfolioCapture.cs - GUID: 28ec63dc81544694da5a7e8d5757b044...
+----- Compute hash for Assets/Editor/PortfolioCapture.cs.
+ done. [Time: 36.628800 ms] 
+Updating Assets/Scripts/Gameplay/Coin.cs - GUID: 49da5c211f5d7b94eb9849f7ff871d21...
+ done. [Time: 10.350400 ms] 
+Updating Assets/Scripts/Gameplay/GameManager.cs - GUID: 6c49741ed82df8a45a4ab119164be476...
+ done. [Time: 10.079600 ms] 
+Updating Assets/Scripts/Gameplay/PlayerController.cs - GUID: 8a8be69341a1e294a844acde257d341c...
+ done. [Time: 12.974300 ms] 
+Updating Assets/Scripts/Environment/NextLevelScreen.cs - GUID: a46ef8db3fed8e74c94ddc25a73b0530...
+ done. [Time: 9.910600 ms] 
+Updating Assets/Editor/SuperMarioDemoSceneBuilder.cs - GUID: c18988c1641758a43ad4a09d8fa559b3...
+ done. [Time: 20.170200 ms] 
+Updating Assets/Scripts/Environment/ParallaxLayer2D.cs - GUID: d3d96f68f6f0eff458b13639c1fe9b74...
+ done. [Time: 8.391600 ms] 
+Updating Assets/Scripts/Gameplay/EnemyController.cs - GUID: e0057d7ac7caeaa459a94724731cb355...
+ done. [Time: 13.466900 ms] 
+Updating Assets/Scripts/Gameplay/PlayerAnimation2D.cs - GUID: e8d834a3eda9333488a0f955ad138a6e...
+ done. [Time: 11.041300 ms] 
+Updating Assets/Scripts/Camera/CameraFollow2D.cs - GUID: fc5d5f6e2278aa54f939efc26ce65061...
+ done. [Time: 10.109500 ms] 
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 3 milliseconds
+Pass: 1 took 6 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.576 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.0256758s.
+Native extension for WindowsStandalone target not found
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0116.png - GUID: 00bac7d5e24312e4a9ee19cc3334b96d...
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+ done. [Time: 314.640800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0017.png - GUID: 012beb02847240d419de1e5b78d8d88c...
+ done. [Time: 26.009600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0028.png - GUID: 03e5cd112d52d1044967ba24c52c454d...
+ done. [Time: 29.876500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0159.png - GUID: 040289b50a2c1774d91d189d6dc8c8e3...
+ done. [Time: 38.868600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0004.png - GUID: 04daa897b5232ef49874353e1d17a8eb...
+ done. [Time: 34.970600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0054.png - GUID: 068f3ffc32fe13e48b5b87ec06bc305d...
+ done. [Time: 33.527000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0053.png - GUID: 07047e4b70e56354d94163cb560efdc1...
+ done. [Time: 40.139700 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_4.png - GUID: 079b11370e1eb7f45b46b1549a091278...
+ done. [Time: 37.177000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0014.png - GUID: 08233b183d7217447b0f05ee268a11a8...
+ done. [Time: 35.184500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0115.png - GUID: 0b005bcd64ef6834b850c241fde8eda9...
+ done. [Time: 35.693000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0150.png - GUID: 0dd20b6761c3dbe4284adca2e02e535a...
+ done. [Time: 40.760800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0088.png - GUID: 0e36c10494d0c9d40a0cecf7a4aa1587...
+ done. [Time: 27.080600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Preview.png - GUID: 0e4681734c617544cb5676022c431f9a...
+ done. [Time: 113.526200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0134.png - GUID: 0f47f2fb6a1068c469b92e433ead0fb7...
+ done. [Time: 31.777500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0019.png - GUID: 102ab44bcc135e248aadee9f37eaf656...
+ done. [Time: 33.451300 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Editor/landscape.jpg - GUID: 10bf81265ad87424d946598c575f45a0...
+ done. [Time: 428.866200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0168.png - GUID: 10fca95273168f94785c5d56759a8885...
+ done. [Time: 32.415100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0063.png - GUID: 12415c669bbe7e14ab8e9b390df43217...
+ done. [Time: 27.202700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0008.png - GUID: 14a9f53a68349b04e8dd252e9e45c8d9...
+ done. [Time: 23.713200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0153.png - GUID: 14d819825fdc69944b420df94da7fbf1...
+ done. [Time: 34.648800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0055.png - GUID: 14dd6cc344329344b9eb378d88819ed0...
+ done. [Time: 38.706200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0012.png - GUID: 1514d99fa24065c4a8685a030ff734af...
+ done. [Time: 26.420200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0032.png - GUID: 169b3179758a2324cb7776f144c11efe...
+ done. [Time: 25.000700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0117.png - GUID: 169ef023fd9171049a47b51866342e34...
+ done. [Time: 25.431800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0061.png - GUID: 1734c3e38b3027e4899eb0f46cafa9dd...
+ done. [Time: 30.691500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0016.png - GUID: 180c784795c7a924c9e429eda26e180e...
+ done. [Time: 47.699400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0002.png - GUID: 188a6f1851664b843ae48fbe2b0926a8...
+ done. [Time: 35.894700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0000.png - GUID: 1893781c2725bb144a4ad1dba4d2714e...
+ done. [Time: 33.100400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0020.png - GUID: 19f358bd9a749b44891a7fddb91ddd8b...
+ done. [Time: 38.579900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0132.png - GUID: 1ab4dec43adab9143bdfd9eb262afb4b...
+ done. [Time: 40.425400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0001.png - GUID: 1b1487d32fe98204680fa54629734d96...
+ done. [Time: 33.990800 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Editor/portrait.jpg - GUID: 1b32bcce201b4494ea8848326290c5d5...
+ done. [Time: 433.676500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0060.png - GUID: 1b9a84b567c985c4d866e65bff53e8f1...
+ done. [Time: 39.840000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0018.png - GUID: 1e4e19dcf8bf43541a1a6924f48f7034...
+ done. [Time: 37.415600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0016.png - GUID: 1f5ccdd51e89cb34d9858289c3947f9b...
+ done. [Time: 26.474500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0093.png - GUID: 1feb22497cea9f946af1a658d18770f0...
+ done. [Time: 39.035300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0135.png - GUID: 208f795918cdb26419175f6ef31b8a81...
+ done. [Time: 35.439600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0005.png - GUID: 20c6d0a025e62184cace4010f9f7d5d4...
+ done. [Time: 29.554500 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/candidate_09.png - GUID: 228a0db2740091d4bb56d444e208fc57...
+ done. [Time: 32.765000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0066.png - GUID: 22c9289624b28d241bcf3b38110accf9...
+ done. [Time: 32.240400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0015.png - GUID: 22dfece0db8c26048afa3b608329f29a...
+ done. [Time: 38.391500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0167.png - GUID: 240c4c19f36d8a74a8c68fc847a2be9e...
+ done. [Time: 39.760800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0160.png - GUID: 248f1a90e5e61bd4b85483f8fbfbc290...
+ done. [Time: 33.071900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0018.png - GUID: 265c23becd7a5dd4abc399c4e28a9550...
+ done. [Time: 39.621100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0118.png - GUID: 270910fd4e016054c9cc44192870c831...
+ done. [Time: 42.135400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0119.png - GUID: 289e6e6ba4d59fb43b9f20f48cdc7b34...
+ done. [Time: 25.191400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0122.png - GUID: 291a64f01ee33494dad79a4961c48975...
+ done. [Time: 34.507100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0092.png - GUID: 2a083cc2785db464bb85b11be1004300...
+ done. [Time: 36.750800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0059.png - GUID: 2c9879ba2531c584684af48771683c03...
+ done. [Time: 39.830900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0083.png - GUID: 2d50b67d4cafaad4ba3dd1de80c6f427...
+ done. [Time: 31.704600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0037.png - GUID: 2dcd5508c14d82d44aee540bfff733d3...
+ done. [Time: 37.147600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0007.png - GUID: 2eba1af16cb5d064a914b4d2e1625409...
+ done. [Time: 35.746500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0050.png - GUID: 2ee553bead0bc0c41837c70cf78d0594...
+ done. [Time: 81.261900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0035.png - GUID: 2eec180a5c66add47ab0a09ce37009e9...
+ done. [Time: 29.658000 ms] 
+Updating Assets/Art/OpenGameArt/platformer_player_sheet.png - GUID: 305d972d732596246a561b14f2069e42...
+ done. [Time: 81.518800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0015.png - GUID: 312adebcd2a01c04793cb2adc087df32...
+ done. [Time: 35.238300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0013.png - GUID: 318964e4ed54f8a4ba3cf8a2a7188bda...
+ done. [Time: 36.891400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0020.png - GUID: 31cf202c0b6f1c0439149d9ca2bb073f...
+ done. [Time: 34.506000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0112.png - GUID: 35068b3a560907244ad7bfddcd57578b...
+ done. [Time: 23.747600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap/tilemap.png - GUID: 3542a61b7afb99f4baec12c8147f64e6...
+ done. [Time: 58.450000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0129.png - GUID: 35f0b1273a844c948896d10745b76fc5...
+ done. [Time: 35.290100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0004.png - GUID: 368205e66cc14834fbae756cbb418bed...
+ done. [Time: 34.789800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0039.png - GUID: 36e585ec51c44624ebad4e049f57b993...
+ done. [Time: 31.900600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0162.png - GUID: 36ef7b4b63bafe1409ef1f1c16cf3b58...
+ done. [Time: 34.324300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/SampleB.png - GUID: 3848ce37b710b2d4d865a39b73f3b878...
+ done. [Time: 76.670900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0137.png - GUID: 3877ea7202acf684d921fc79754a98cb...
+ done. [Time: 30.811000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0006.png - GUID: 3b6657bc2b17a54439d7e7f7213b3164...
+ done. [Time: 27.538200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0031.png - GUID: 3c0928dc1f414454198ba4c95cbea72f...
+ done. [Time: 36.425100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap/tilemap-characters_packed.png - GUID: 3d05ef6d8a949fe489489129695b1606...
+ done. [Time: 34.043500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0108.png - GUID: 3dcc8a31953aaad478ac64e2717dd00a...
+ done. [Time: 34.577900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0149.png - GUID: 4010740a30ee55a4aaf602eac5518bfc...
+ done. [Time: 30.774000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0156.png - GUID: 42cfedf264db5f44c8c638a0a6cd00db...
+ done. [Time: 34.489800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0046.png - GUID: 437d6b0c682428d409bb560493c033e4...
+ done. [Time: 38.310000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0017.png - GUID: 45062c5d21bb97543ba713e6f6f27d3c...
+ done. [Time: 21.723600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0104.png - GUID: 4992cdf6ea1c3d748ad6264b9004a0f3...
+ done. [Time: 36.614000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0023.png - GUID: 4acc9f8b7dc03474c8d82632ebce8970...
+ done. [Time: 37.428300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0121.png - GUID: 4b5a1683f2af32643a0b581dd32e95ae...
+ done. [Time: 35.582200 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/candidate_11.png - GUID: 4d368b4256a45014a9061836dc12884f...
+ done. [Time: 33.778600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0045.png - GUID: 4d4826133caa98f41a51e2df165b8fc1...
+ done. [Time: 30.830400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap/tilemap-backgrounds_packed.png - GUID: 4dac65237066de44ca844a67d4e687cb...
+ done. [Time: 33.537800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0157.png - GUID: 4e08a2aed7a932748acd874cb6cc169f...
+ done. [Time: 24.747900 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_idle.png - GUID: 4e6f1515172d3b84a8a10f591172cd10...
+ done. [Time: 39.989300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0009.png - GUID: 4ea45d9f8255fde42af58762e253f418...
+ done. [Time: 31.473700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0071.png - GUID: 4f61e9a59ea9d394fb34679cf6c554ae...
+ done. [Time: 30.229700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0154.png - GUID: 521b8530358eec64da068b982b6eadba...
+ done. [Time: 32.484700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0020.png - GUID: 52b78be61880ff74b9853e04e005b6a0...
+ done. [Time: 34.271200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0096.png - GUID: 54aea4ea60c266c4db65b3096b1cd0de...
+ done. [Time: 33.857200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0087.png - GUID: 5546acef055dd3c4da1e85f65d4d82a1...
+ done. [Time: 38.604000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0004.png - GUID: 569edd8541f20b541ad2d819a0537c1d...
+ done. [Time: 32.786600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0175.png - GUID: 56e80cdabf157254f959ade1024d37c7...
+ done. [Time: 37.524900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0011.png - GUID: 575855ea9f5eaa54cb47e26706f8e13e...
+ done. [Time: 26.071300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0058.png - GUID: 5995a4a28405fca4ab5f34309e4be409...
+ done. [Time: 33.104900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0172.png - GUID: 59bb83e10ca54914b88377dd9408edf8...
+ done. [Time: 29.749800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0091.png - GUID: 5a90f84e9341e3e4ba72ff63803b7345...
+ done. [Time: 33.516900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0098.png - GUID: 5ba01802d96fbfe4a9cc05b68f906317...
+ done. [Time: 27.011100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0103.png - GUID: 5c33ae05cff3fd54cbff94610e346da3...
+ done. [Time: 35.153500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0065.png - GUID: 5d82176690b7d8349a43e20fc3346dfd...
+ done. [Time: 28.311500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0143.png - GUID: 5dccade253b7b20468630245e24b5774...
+ done. [Time: 36.302700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0052.png - GUID: 5e7fd543d142d474192c2268f01cfcbc...
+ done. [Time: 29.734700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0107.png - GUID: 5fa6ad4b13b0cd142b23a54935b74b75...
+ done. [Time: 28.358500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0064.png - GUID: 5ffc50e21c3916449a8db43d2a6916fd...
+ done. [Time: 42.774000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0007.png - GUID: 606052e10e21f31459255f00036775f7...
+ done. [Time: 23.296000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0151.png - GUID: 61e41ac99f797194781f07c15a0f4acc...
+ done. [Time: 34.981500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0081.png - GUID: 62b3410b590086445884f0cd7ebce9cf...
+ done. [Time: 28.497400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0049.png - GUID: 634b7223d780009429f9889893d85558...
+ done. [Time: 27.916600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0030.png - GUID: 6748c0f0d52ef2c41ac70d10fb936ba7...
+ done. [Time: 25.133300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0086.png - GUID: 6869b9ebca5065448949739c53a079ff...
+ done. [Time: 31.871100 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_jump.png - GUID: 6e031eeab7ca1c6488af1f01710a60c4...
+ done. [Time: 30.745900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0090.png - GUID: 6e675c941efc87f4094945eff9080a27...
+ done. [Time: 88.227300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0007.png - GUID: 6ef95371cd9d23846920bca1e5c66666...
+ done. [Time: 34.535300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0043.png - GUID: 6f42a5ee0ce86df44be09c84a08ba71a...
+ done. [Time: 38.491400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0123.png - GUID: 6f71ad850136d0e43a6d70b424913f14...
+ done. [Time: 33.961600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0144.png - GUID: 718847faa53db3a4492523011af7a246...
+ done. [Time: 36.620000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0125.png - GUID: 71d2ed2cf7fa4744abaf63ed455689e4...
+ done. [Time: 45.641900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0077.png - GUID: 71f994d5bfa3a154fb10fa7a3a4edc63...
+ done. [Time: 46.812100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0085.png - GUID: 7224b5d5f846fba469726cdf1e7eac92...
+ done. [Time: 41.160400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0068.png - GUID: 74b7d49608ce9bc41828493665596cb0...
+ done. [Time: 29.007300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0174.png - GUID: 754505478e8a89b4ea2c15d810959212...
+ done. [Time: 35.001900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0161.png - GUID: 78bcd54ae27ab2748988e0f79f1710a7...
+ done. [Time: 31.208800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0097.png - GUID: 7920bb4bff7f97147a915ad4e0b498f4...
+ done. [Time: 37.733300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0047.png - GUID: 7938393dc86b5dc4ab7d2c7e5e2233e5...
+ done. [Time: 43.086400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0056.png - GUID: 7bae9293060eee94ca1a78908af9312c...
+ done. [Time: 39.926900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0034.png - GUID: 7cbf68e68edc1e248aaa92310164263b...
+ done. [Time: 35.325400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0016.png - GUID: 7f6824d11da385f4e9f14eb1227a045e...
+ done. [Time: 46.433700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0133.png - GUID: 7f959f0ab05e1f44dbf9d0f886c25745...
+ done. [Time: 49.036300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0025.png - GUID: 803f50dcb665ab04fbd45e130bf421eb...
+ done. [Time: 45.989300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0166.png - GUID: 80ca0f5424754544090ca81c0c66d348...
+ done. [Time: 35.574100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0074.png - GUID: 8167f8e48e704b44a815f21a1e4214d4...
+ done. [Time: 43.439400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0022.png - GUID: 8185e1ca64410c34e88a251d0fadd372...
+ done. [Time: 34.905200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0067.png - GUID: 81f0d1ff02ab47f4eb306a7a0e58f9af...
+ done. [Time: 39.468800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0003.png - GUID: 8278da069062b994dabd8264fc092de9...
+ done. [Time: 37.600600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0011.png - GUID: 876d703ba7b1db841801891258747e4a...
+ done. [Time: 30.555500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0041.png - GUID: 87b93957ccb29874ca6021c88a58dd29...
+ done. [Time: 33.509100 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/candidate_02.png - GUID: 8831d01eaecdea74495cbb3be440b587...
+ done. [Time: 50.942700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0145.png - GUID: 88676589ce0f2084681b8605b5825a4b...
+ done. [Time: 34.276500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0171.png - GUID: 8a0c7ecd187a5ae4b99a59ecf95fe16b...
+ done. [Time: 25.654000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0076.png - GUID: 8d57350fde631814e985323cf248da01...
+ done. [Time: 29.860500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0169.png - GUID: 8e1b0a4da47d9014681193abecd4e3ba...
+ done. [Time: 40.267200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0179.png - GUID: 8e32ab209961b1d438216a95d084da51...
+ done. [Time: 37.968600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0106.png - GUID: 8ed7c615079590d46aa26c119c4750a5...
+ done. [Time: 39.971800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0173.png - GUID: 934c3233e8a91104088c0f1cbb3abd94...
+ done. [Time: 31.299600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0062.png - GUID: 940af440e0464104088f477dbdea6e45...
+ done. [Time: 34.893800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0141.png - GUID: 9599e36334ad2634ea57d90b5b1b3de6...
+ done. [Time: 38.876400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0000.png - GUID: 970e9f21959af3b459f24214bba1f74a...
+ done. [Time: 33.415800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0099.png - GUID: 97e00d3848b084a41abcbddde4c0a338...
+ done. [Time: 37.214000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0010.png - GUID: 9852e8d499f2b0c4e9ebf16a8c337fc6...
+ done. [Time: 24.571000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0036.png - GUID: 985f097cf2b64d74bb7c1a9c93c1f448...
+ done. [Time: 29.622200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0001.png - GUID: 995990a55b8759b43a2481576f418edf...
+ done. [Time: 27.711400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0001.png - GUID: 99776d84eda7fbb46822969155bd35f1...
+ done. [Time: 32.757300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0002.png - GUID: 99d941f7bd407ae49ae0b7ad5c2ec766...
+ done. [Time: 28.891000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0010.png - GUID: 9a5a95cc71de7924b9a1961f4106395e...
+ done. [Time: 37.700500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0120.png - GUID: 9dc9b9e5f1ca871419dcca73b6c8dddb...
+ done. [Time: 31.517800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0008.png - GUID: a020e9d5ba9ece1429cbb0282b40995e...
+ done. [Time: 38.013100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0089.png - GUID: a0481738ed593cc4d8f4e3bf54f09416...
+ done. [Time: 29.163600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0095.png - GUID: a074d871b51c5dc4db2b535d01a9a87c...
+ done. [Time: 35.886600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0040.png - GUID: a1220efd4965e384f87f63d41d74c9da...
+ done. [Time: 36.313100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0014.png - GUID: a28634d734978d746b69964ea2e37402...
+ done. [Time: 36.536700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0002.png - GUID: a3a18c29a0444794288d214777271454...
+ done. [Time: 30.079900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0024.png - GUID: a40464eb3b18fd94b93ec839630f7bdd...
+ done. [Time: 27.015000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0101.png - GUID: a427a5dc55de6464c8c04d80a2ac844f...
+ done. [Time: 28.647600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0017.png - GUID: a4a2c8ff2636a124aa72ab35645912d2...
+ done. [Time: 28.308600 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/candidate_04.png - GUID: a8611c8ebdd84ea4fba87a7b0a613b78...
+ done. [Time: 32.487400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0033.png - GUID: a8c4eaf1721161b4a9a893eadc3b30b7...
+ done. [Time: 33.054600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0069.png - GUID: a945dbf181465e749a0af72ee8a70ac9...
+ done. [Time: 75.641000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0177.png - GUID: a96636a75c557ba41b2453595484340b...
+ done. [Time: 34.215300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0111.png - GUID: a9e9f5d3f26074d41993eff636dab4ce...
+ done. [Time: 27.978300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0152.png - GUID: aad7b55f51adabb45a29cc0f884b89b6...
+ done. [Time: 30.006900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0048.png - GUID: ab534df76f68874488db10ea691ae3ef...
+ done. [Time: 28.001600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0170.png - GUID: abb9a383dc21c1c49a6905f12475679b...
+ done. [Time: 29.132100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0176.png - GUID: ac4ea54ad0671cd49a5b250412b87955...
+ done. [Time: 38.890800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0042.png - GUID: ac652c4a80f34ce4fb0d0ff861101424...
+ done. [Time: 34.282700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap/tilemap-backgrounds.png - GUID: ad2a8afb22aeb89479b40c4c5ca19090...
+ done. [Time: 46.492000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0019.png - GUID: ad7c2c0fb0ebb9d4db457eb258b164ac...
+ done. [Time: 28.665000 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/candidate_12.png - GUID: adeb8d797b4fbb74bb7d1a779d10510c...
+ done. [Time: 28.440700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0009.png - GUID: aec1e2f896ead7246b3d974dd3f9691c...
+ done. [Time: 34.691000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0163.png - GUID: af3863aa26f7861479956e7a8af70bdc...
+ done. [Time: 32.889100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0140.png - GUID: b25ef8d800fa12f4f9e5e011ab2dbf18...
+ done. [Time: 28.758500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0072.png - GUID: b56812829c4cae94c9b47ee299a096b5...
+ done. [Time: 34.282600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0006.png - GUID: b5968b62e8224db4fba41673c7dc860b...
+ done. [Time: 33.465200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap/tilemap_packed.png - GUID: b5d69e39341c72c49810c78741294b84...
+ done. [Time: 49.237900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0114.png - GUID: b6be898c74a1d2c43a295600cd78bbe3...
+ done. [Time: 36.825800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0075.png - GUID: b84a1d79743e9c14fbb2c9e7a6ad1c59...
+ done. [Time: 30.715100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0026.png - GUID: b8533df3f53252c4f86d67ef1217de6f...
+ done. [Time: 31.937100 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_2.png - GUID: b9b11cd021cc71940bb293b2a284906b...
+ done. [Time: 36.770200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0006.png - GUID: ba74dc20eed9ce640beeb3fd7d94c2e5...
+ done. [Time: 40.092000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0008.png - GUID: bae0a951d4fde9b4992113fc770bc22d...
+ done. [Time: 35.044300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0130.png - GUID: bd114750185549e4a89269dfe8da581e...
+ done. [Time: 33.408800 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_1.png - GUID: be6aabd12b22f8743ad5a530926b951d...
+ done. [Time: 37.337800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0178.png - GUID: be6c736a1ce8c2a4e834c1a175c72b66...
+ done. [Time: 33.419200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0003.png - GUID: bfabb4a7d7171be4babad31f3e01f9bf...
+ done. [Time: 38.268100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0124.png - GUID: c180d70b5b03d1e49abb2b9ce0881602...
+ done. [Time: 34.748800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0025.png - GUID: c2152c9ac915ded42851e776cd7b6e2c...
+ done. [Time: 37.070100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0014.png - GUID: c2f84f029f02e914881f64fe05860f5b...
+ done. [Time: 47.596900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0013.png - GUID: c48bd8155bd712e4da6d439cd6a9044b...
+ done. [Time: 35.993400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0084.png - GUID: c509cd021d06a6a4392b1dcbb7daa270...
+ done. [Time: 39.545200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0015.png - GUID: c7af0208f537b064eb43e0e593d04eb7...
+ done. [Time: 31.628400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0021.png - GUID: c81a829e46aa4c84fbaba647b50351ef...
+ done. [Time: 31.160000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0021.png - GUID: c849b6373ca34ed4488460bfa5803c93...
+ done. [Time: 40.551500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0113.png - GUID: c8c0ee2cb8b99fb4f8f89a55d2d0d5b1...
+ done. [Time: 35.861800 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_3.png - GUID: c91fe61ac26c7d24ba16e89788be2751...
+ done. [Time: 47.854800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0165.png - GUID: ca1c3c5637b70c8428e0cf442a16a7e8...
+ done. [Time: 37.249800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0011.png - GUID: ca21545d48b2b874c9bceae7a2a3e741...
+ done. [Time: 39.862300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0139.png - GUID: cd0c5c6d5c775e346b04feb03399172c...
+ done. [Time: 46.936100 ms] 
+Updating Assets/Art/OpenGameArt/PlayerFrames/candidate_03.png - GUID: cd61cd0348109084090990cb70039f46...
+ done. [Time: 49.814100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0100.png - GUID: cdb1768d81c1cc241b679187cc410b4c...
+ done. [Time: 33.512600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0073.png - GUID: ceac3550e052b4c40ab0750dd78aceee...
+ done. [Time: 40.152000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0070.png - GUID: cf1d0e8230cdc7449ab3154e32b1ccc1...
+ done. [Time: 34.818000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0013.png - GUID: d28cf427e8309714db9e6ff03520d72b...
+ done. [Time: 37.225300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0021.png - GUID: d2e759558ce53be4b88659bcf64abd14...
+ done. [Time: 47.245900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0057.png - GUID: d40516de82bf4ac49997afb541bd6be1...
+ done. [Time: 31.792300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0138.png - GUID: d4a9c07c2f8f2e94a947b5a1e54121a7...
+ done. [Time: 34.972500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0005.png - GUID: d6d7d7ee83f31c4438c5c58258b2357e...
+ done. [Time: 34.238700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0000.png - GUID: d73695a81458e3244aa5017faed2f24a...
+ done. [Time: 38.183100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0012.png - GUID: d8272cf1f30afbe448a5b3d020fbfb43...
+ done. [Time: 28.449600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0010.png - GUID: d9ff08ab66bd9f74e9c2ed37051a050e...
+ done. [Time: 31.618400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0079.png - GUID: da1d073bfb847fb40a73448b8001d2b6...
+ done. [Time: 25.121900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0136.png - GUID: da23276d7c28d3d4094b0fc4452a96ae...
+ done. [Time: 34.589800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0024.png - GUID: dae93c4440532d14aaf2c8b19a51a62a...
+ done. [Time: 54.539000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0146.png - GUID: db576581a51e3ab4298299c4dc919565...
+ done. [Time: 46.463700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0147.png - GUID: df8eff8589c9ea246a9f11c8124ee461...
+ done. [Time: 38.705900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0012.png - GUID: e076952638ddd934cb74e9290565409a...
+ done. [Time: 34.042300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0128.png - GUID: e14a792b73e323b4ca90daf91b3cce63...
+ done. [Time: 45.734700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0164.png - GUID: e22eefbfcebbfc64ab73e1083b1b0534...
+ done. [Time: 31.042600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0051.png - GUID: e27b762dd9ccbd242baf5aac3c0e4b78...
+ done. [Time: 33.410400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0131.png - GUID: e2d08eb0e8a77ef41902f38495064650...
+ done. [Time: 33.815300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0078.png - GUID: e4cdd6d7529f9cb408af91dceeb3ebd3...
+ done. [Time: 26.315000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0003.png - GUID: e5ae580a9833ba24aa3ed1dd301d503b...
+ done. [Time: 24.973900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0109.png - GUID: e68b4a4b69775994a95eba9357521f9d...
+ done. [Time: 25.285700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0082.png - GUID: e6e791f6ca075b949ab6fbc35eee97b1...
+ done. [Time: 28.874200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0038.png - GUID: e7ec7b1f2b822d84ca604cdc66c463d5...
+ done. [Time: 38.784400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0022.png - GUID: e9bc98d716ac68f498c576b9b7d4ec63...
+ done. [Time: 40.928000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0094.png - GUID: ea181ec2cc41a0f4783b54d97e2b7484...
+ done. [Time: 39.094100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0127.png - GUID: ea818071d6a58cd4b9f49e25c37ed3c2...
+ done. [Time: 29.217400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0142.png - GUID: eab83d1a9fb926b4f9becc37a492dab3...
+ done. [Time: 36.451300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0027.png - GUID: ebeb5f14e58b9c34aad6e2141acb397e...
+ done. [Time: 41.463400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0026.png - GUID: ed8a3aaf55da62a4f90eaff2561693ef...
+ done. [Time: 41.400300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0029.png - GUID: efcbb8c7a3ee60746b21a550d572f77a...
+ done. [Time: 40.094200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0155.png - GUID: f1d7ef902717fbb419e1e0fec85d5c91...
+ done. [Time: 45.492900 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0018.png - GUID: f1ed5373b7fda7c4e8d1b0d7815fc61c...
+ done. [Time: 30.177000 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0105.png - GUID: f2741f56ba1bc3a46867321a7d8d62d5...
+ done. [Time: 46.390800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0023.png - GUID: f49ce6c60dd8e4d4193381ebcc2b54e5...
+ done. [Time: 73.896800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0023.png - GUID: f57aa9f40fbb8a541b5942633c191963...
+ done. [Time: 35.033100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0148.png - GUID: f5ae8e2853a25b84fbac7fe1efaabc0d...
+ done. [Time: 34.854800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0022.png - GUID: f5b665d8e7577f44badbea5b9a574fb1...
+ done. [Time: 40.905400 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/SampleA.png - GUID: f5c43916f98ad3a4e8ad681d59d8c00a...
+ done. [Time: 82.274100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0126.png - GUID: f7b40535b94811f479dabf30e934d290...
+ done. [Time: 33.958500 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0110.png - GUID: f807ae6541624f14b99a0c6d24f605c3...
+ done. [Time: 31.175600 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0158.png - GUID: f8cbadb21c0e8b34d907b3a4879e0946...
+ done. [Time: 42.516800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0102.png - GUID: fbe34da63ed603047a32d86019bbfd42...
+ done. [Time: 30.273800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0019.png - GUID: fc184522c7b855c49890060bb2444def...
+ done. [Time: 38.139800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0044.png - GUID: fd2fd1a591458d8419c0ee3e10901c5b...
+ done. [Time: 38.046100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilemap/tilemap-characters.png - GUID: fd5e221dd2622644cb6940a95847c2ba...
+ done. [Time: 44.292200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0009.png - GUID: fd9b8033bf5f74a4f8e7ad9230810115...
+ done. [Time: 31.135200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0005.png - GUID: ff2fe68936a119044a2267d4fa778c7d...
+ done. [Time: 34.734700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0080.png - GUID: fff6069092749654298ca07066777770...
+ done. [Time: 43.342500 ms] 
+Updating D:/super_mario_exam/.capture_unity/UnityPackageManager/manifest.json - GUID: 0000000000000000e100000000000000...
+ done. [Time: 15.342200 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Android/libAudioPluginOculusSpatializer.so - GUID: 0d3bb855445e36e479c85976fc88383a...
+ done. [Time: 16.137100 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win/OVRPlugin.dll - GUID: 21eff446d50eaf44a85985cd4c0b6fa1...
+ done. [Time: 19.385700 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilesheet (Tiles).txt - GUID: 25b205beb64fa7a409efc322d1b76108...
+ done. [Time: 19.607100 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilesheet (Backgrounds).txt - GUID: 25b5e53878c0b4742b74e5c342536ef1...
+ done. [Time: 18.171100 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win64/AudioPluginOculusSpatializer.dll - GUID: 2682a692a2be7e14e901a738c7806da0...
+ done. [Time: 17.126800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/WindowsStoreApps/uap_x86/AudioPluginMsHRTF.dll - GUID: 2fe3476eabbbb6c448e6b55a2cc471f5...
+ done. [Time: 15.728000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Tango/Android/libtango_3d_reconstruction_api.aar - GUID: 30aa2886e2b748d48fbe4b155c65025f...
+ done. [Time: 16.307000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win64/openvr_api.dll - GUID: 328cc881519068e4eb7db4bb907ad2d9...
+ done. [Time: 18.754800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Android/gvr.aar - GUID: 38c8faf1788024c02930a0c68a6e0edc...
+ done. [Time: 16.093500 ms] 
+Updating Packages/com.unity.purchasing@1.0.1/package.json - GUID: 44f39a74ca5ee4bf5936b17e901f251c...
+ done. [Time: 15.823100 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/WindowsStoreApps/uap_x64/AudioPluginMsHRTF.dll - GUID: 49f5766d0d4954f44b85d4bbd7131677...
+ done. [Time: 25.957700 ms] 
+Updating Packages/com.unity.analytics@1.0.1/package.json - GUID: 510d1d319d2754ea4a47c6dd8c421ea0...
+ done. [Time: 16.607800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Android/OVRPlugin.aar - GUID: 517af1b5b81b93b43b9745d58f017562...
+ done. [Time: 90.827400 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/WindowsStoreApps/uap_arm/AudioPluginMsHRTF.dll - GUID: 6981461fe431401459211818212a29cf...
+ done. [Time: 31.693000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Tango/Android/unitygar.aar - GUID: 75799de484ac4f4cadc268d2cbea830a...
+ done. [Time: 20.474200 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Construct 3/Readme.txt - GUID: 7d2bede05389f894ab98a2683c5ed50c...
+ done. [Time: 8.667800 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win64/AudioPluginMsHRTF.dll - GUID: 84ca94c19f25ae14d83aa41bb3654390...
+ done. [Time: 33.941000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win/AudioPluginOculusSpatializer.dll - GUID: 8e7066e382b0fc749b25dbb1a3004dfe...
+ done. [Time: 19.194700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Linux64/libopenvr_api.so - GUID: 9078b7128e594410d9b89e5b24cffd01...
+ done. [Time: 23.548300 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/License.txt - GUID: a8bb411f943f3354a9bb9c6e20f55bc1...
+ done. [Time: 19.650000 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Android/libprotobuf-java-nano.jar - GUID: b2b693dffac3a4433b3114fea0b7fd4e...
+ done. [Time: 14.696700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win64/OVRPlugin.dll - GUID: b2bead50dbf86924f8e51f03ddbebf70...
+ done. [Time: 16.435300 ms] 
+Updating Packages/com.unity.ads@1.0.7/Editor/Resources/Android/builds/unity-ads.aar - GUID: b32abd1c9d73a4cce8389f084ac12b11...
+ done. [Time: 13.533800 ms] 
+Updating Assets/Art/KenneyPixelPlatformer/Tilesheet (Characters).txt - GUID: b6c88c80eec6f934a8acb70f8c30ff59...
+ done. [Time: 16.330100 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win/AudioPluginMsHRTF.dll - GUID: d05b96cee66e14240838de167097537a...
+ done. [Time: 15.154700 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Win/openvr_api.dll - GUID: d91035c548f23744c9bfb107348ed1c0...
+ done. [Time: 15.110000 ms] 
+Updating Packages/com.unity.ads@1.0.7/package.json - GUID: dced8f6ea9f964e8e8e61574ea889d21...
+ done. [Time: 14.356300 ms] 
+Updating C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/VR/Android/unitygvr.aar - GUID: e1007cd261c84053beb0c3537782908d...
+ done. [Time: 14.307300 ms] 
+Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 23.7 MB.
+System memory in use after: 23.6 MB.
+
+Unloading 92 unused Assets to reduce memory usage. Loaded Objects now: 650.
+Total: 7.393100 ms (FindLiveObjects: 0.116600 ms CreateObjectMapping: 0.030600 ms MarkObjects: 7.003900 ms  DeleteObjects: 0.067900 ms)
+
+Refreshing native plugins compatible for Editor in 38.21 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 12.91 ms.
+
+----- Total AssetImport time: 27.495060s, AssetImport time: 20.763318s, Asset hashing: 6.016437s [41.5 MB, 6.899570 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.015627 seconds (Nothing changed)
+Determining assets that need to be reimported for target platform ... 0.210609 seconds.
+
+Hashing assets ... 0.066 seconds
+  file open: 0.021 seconds (506 files)
+  file read: 0.033 seconds (0.565 MB)
+  hash: 0.001 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.40 ms.
+
+----- Total AssetImport time: 0.278646s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Warming cache for 410 main assets: 0.001527 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 95 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 22.9 MB.
+System memory in use after: 22.9 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 695.
+Total: 2.127600 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.024800 ms MarkObjects: 1.854600 ms  DeleteObjects: 0.036100 ms)
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.012129 seconds (Nothing changed)
+
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0000.png - GUID: 970e9f21959af3b459f24214bba1f74a...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0000.png.
+ done. [Time: 70.688200 ms] 
+Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+
+----- Total AssetImport time: 0.149384s, AssetImport time: 0.124272s, Asset hashing: 0.020378s [3.6 KB, 0.172316 mb/s]
+
+
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0001.png - GUID: 99776d84eda7fbb46822969155bd35f1...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0001.png.
+ done. [Time: 38.489000 ms] 
+Refreshing native plugins compatible for Editor in 0.50 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+
+----- Total AssetImport time: 0.101554s, AssetImport time: 0.081522s, Asset hashing: 0.011652s [3.6 KB, 0.300369 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0002.png - GUID: 99d941f7bd407ae49ae0b7ad5c2ec766...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0002.png.
+ done. [Time: 35.432000 ms] 
+Refreshing native plugins compatible for Editor in 0.41 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+
+----- Total AssetImport time: 0.097393s, AssetImport time: 0.073985s, Asset hashing: 0.012336s [3.5 KB, 0.280329 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0009.png - GUID: aec1e2f896ead7246b3d974dd3f9691c...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0009.png.
+ done. [Time: 42.774800 ms] 
+Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+
+----- Total AssetImport time: 0.105405s, AssetImport time: 0.083130s, Asset hashing: 0.012915s [3.5 KB, 0.267301 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0010.png - GUID: 9a5a95cc71de7924b9a1961f4106395e...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0010.png.
+ done. [Time: 54.012800 ms] 
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+
+----- Total AssetImport time: 0.160060s, AssetImport time: 0.116223s, Asset hashing: 0.013897s [3.6 KB, 0.252547 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0030.png - GUID: 6748c0f0d52ef2c41ac70d10fb936ba7...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0030.png.
+ done. [Time: 44.977500 ms] 
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.41 ms.
+
+----- Total AssetImport time: 0.136997s, AssetImport time: 0.109024s, Asset hashing: 0.014278s [3.6 KB, 0.245402 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0060.png - GUID: 1b9a84b567c985c4d866e65bff53e8f1...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0060.png.
+ done. [Time: 48.026600 ms] 
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.43 ms.
+
+----- Total AssetImport time: 0.144432s, AssetImport time: 0.107440s, Asset hashing: 0.016343s [3.6 KB, 0.213930 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0061.png - GUID: 1734c3e38b3027e4899eb0f46cafa9dd...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0061.png.
+ done. [Time: 51.822900 ms] 
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.48 ms.
+
+----- Total AssetImport time: 0.177053s, AssetImport time: 0.130335s, Asset hashing: 0.016647s [3.6 KB, 0.209566 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0062.png - GUID: 940af440e0464104088f477dbdea6e45...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0062.png.
+ done. [Time: 56.747900 ms] 
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+
+----- Total AssetImport time: 0.156002s, AssetImport time: 0.119544s, Asset hashing: 0.022066s [3.5 KB, 0.155505 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0084.png - GUID: c509cd021d06a6a4392b1dcbb7daa270...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0084.png.
+ done. [Time: 47.092300 ms] 
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
+
+----- Total AssetImport time: 0.147845s, AssetImport time: 0.115700s, Asset hashing: 0.014852s [3.6 KB, 0.236425 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0085.png - GUID: 7224b5d5f846fba469726cdf1e7eac92...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0085.png.
+ done. [Time: 51.491800 ms] 
+Refreshing native plugins compatible for Editor in 0.84 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+
+----- Total AssetImport time: 0.143797s, AssetImport time: 0.113337s, Asset hashing: 0.015228s [3.6 KB, 0.230593 mb/s]
+
+
+Hashing assets ... 0.003 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0097.png - GUID: 7920bb4bff7f97147a915ad4e0b498f4...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0097.png.
+ done. [Time: 110.401900 ms] 
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.78 ms.
+
+----- Total AssetImport time: 0.262717s, AssetImport time: 0.210598s, Asset hashing: 0.019989s [3.6 KB, 0.175481 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0127.png - GUID: ea818071d6a58cd4b9f49e25c37ed3c2...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0127.png.
+ done. [Time: 62.824300 ms] 
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.62 ms.
+
+----- Total AssetImport time: 0.224312s, AssetImport time: 0.150006s, Asset hashing: 0.022923s [3.6 KB, 0.152853 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0130.png - GUID: bd114750185549e4a89269dfe8da581e...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0130.png.
+ done. [Time: 62.878400 ms] 
+Refreshing native plugins compatible for Editor in 0.67 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.34 ms.
+
+----- Total AssetImport time: 0.200781s, AssetImport time: 0.133905s, Asset hashing: 0.022063s [3.6 KB, 0.157512 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.001 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0131.png - GUID: e2d08eb0e8a77ef41902f38495064650...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0131.png.
+ done. [Time: 50.345400 ms] 
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.46 ms.
+
+----- Total AssetImport time: 0.151503s, AssetImport time: 0.115301s, Asset hashing: 0.017920s [3.5 KB, 0.189457 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/tile_0152.png - GUID: aad7b55f51adabb45a29cc0f884b89b6...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/tile_0152.png.
+ done. [Time: 46.189400 ms] 
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.48 ms.
+
+----- Total AssetImport time: 0.164580s, AssetImport time: 0.118683s, Asset hashing: 0.016467s [3.5 KB, 0.208139 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0000.png - GUID: d73695a81458e3244aa5017faed2f24a...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0000.png.
+ done. [Time: 52.849400 ms] 
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.27 ms.
+
+----- Total AssetImport time: 0.145412s, AssetImport time: 0.114112s, Asset hashing: 0.018959s [3.4 KB, 0.176160 mb/s]
+
+
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0008.png - GUID: bae0a951d4fde9b4992113fc770bc22d...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0008.png.
+ done. [Time: 54.567900 ms] 
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.43 ms.
+
+----- Total AssetImport time: 0.148308s, AssetImport time: 0.119115s, Asset hashing: 0.017387s [3.5 KB, 0.198342 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0012.png - GUID: d8272cf1f30afbe448a5b3d020fbfb43...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0012.png.
+ done. [Time: 60.975200 ms] 
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.38 ms.
+
+----- Total AssetImport time: 0.183656s, AssetImport time: 0.137242s, Asset hashing: 0.020214s [3.6 KB, 0.171922 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0014.png - GUID: 08233b183d7217447b0f05ee268a11a8...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/Backgrounds/tile_0014.png.
+ done. [Time: 42.379200 ms] 
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+
+----- Total AssetImport time: 0.116290s, AssetImport time: 0.090070s, Asset hashing: 0.014803s [3.5 KB, 0.233859 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0018.png - GUID: 265c23becd7a5dd4abc399c4e28a9550...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0018.png.
+ done. [Time: 41.140400 ms] 
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.53 ms.
+
+----- Total AssetImport time: 0.129229s, AssetImport time: 0.092623s, Asset hashing: 0.014157s [3.6 KB, 0.249253 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0019.png - GUID: fc184522c7b855c49890060bb2444def...
+----- Compute hash for Assets/Art/KenneyPixelPlatformer/Tiles/Characters/tile_0019.png.
+ done. [Time: 47.100700 ms] 
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+
+----- Total AssetImport time: 0.132846s, AssetImport time: 0.101352s, Asset hashing: 0.015598s [3.6 KB, 0.225982 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_idle.png - GUID: 4e6f1515172d3b84a8a10f591172cd10...
+----- Compute hash for Assets/Art/OpenGameArt/PlayerFrames/player_idle.png.
+ done. [Time: 39.682600 ms] 
+Refreshing native plugins compatible for Editor in 0.66 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
+
+----- Total AssetImport time: 0.111279s, AssetImport time: 0.085849s, Asset hashing: 0.014284s [3.7 KB, 0.255581 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_1.png - GUID: be6aabd12b22f8743ad5a530926b951d...
+----- Compute hash for Assets/Art/OpenGameArt/PlayerFrames/player_run_1.png.
+ done. [Time: 40.270300 ms] 
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+
+----- Total AssetImport time: 0.112143s, AssetImport time: 0.087189s, Asset hashing: 0.013732s [3.8 KB, 0.267107 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_2.png - GUID: b9b11cd021cc71940bb293b2a284906b...
+----- Compute hash for Assets/Art/OpenGameArt/PlayerFrames/player_run_2.png.
+ done. [Time: 34.571900 ms] 
+Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+
+----- Total AssetImport time: 0.109056s, AssetImport time: 0.085152s, Asset hashing: 0.011634s [3.8 KB, 0.315271 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_3.png - GUID: c91fe61ac26c7d24ba16e89788be2751...
+----- Compute hash for Assets/Art/OpenGameArt/PlayerFrames/player_run_3.png.
+ done. [Time: 29.944900 ms] 
+Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+
+----- Total AssetImport time: 0.104332s, AssetImport time: 0.076300s, Asset hashing: 0.008553s [3.7 KB, 0.423498 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_run_4.png - GUID: 079b11370e1eb7f45b46b1549a091278...
+----- Compute hash for Assets/Art/OpenGameArt/PlayerFrames/player_run_4.png.
+ done. [Time: 37.047600 ms] 
+Refreshing native plugins compatible for Editor in 0.57 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+
+----- Total AssetImport time: 0.105889s, AssetImport time: 0.083793s, Asset hashing: 0.012071s [3.7 KB, 0.303060 mb/s]
+
+
+Hashing assets ... 0.001 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.002 MB)
+  hash: 0.000 seconds
+Updating Assets/Art/OpenGameArt/PlayerFrames/player_jump.png - GUID: 6e031eeab7ca1c6488af1f01710a60c4...
+----- Compute hash for Assets/Art/OpenGameArt/PlayerFrames/player_jump.png.
+ done. [Time: 40.959900 ms] 
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
+
+----- Total AssetImport time: 0.113582s, AssetImport time: 0.085838s, Asset hashing: 0.013866s [3.8 KB, 0.265485 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.012416 seconds (Nothing changed)
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 40.5 MB.
+System memory in use after: 40.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 2.823800 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.031600 ms MarkObjects: 2.577300 ms  DeleteObjects: 0.019300 ms)
+
+Updating Assets/Scenes/MarioDemo.unity - GUID: 20adfd721caf40949962945850450fbc...
+----- Compute hash for Assets/Scenes/MarioDemo.unity.
+ done. [Time: 22.554700 ms] 
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+
+----- Total AssetImport time: 0.081949s, AssetImport time: 0.060105s, Asset hashing: 0.012848s [396.3 KB, 30.124989 mb/s]
+
+Unloading 42 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.2 MB.
+System memory in use after: 41.4 MB.
+
+Unloading 69 unused Assets to reduce memory usage. Loaded Objects now: 2679.
+Total: 3.027000 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.020000 ms MarkObjects: 2.446800 ms  DeleteObjects: 0.401200 ms)
+
+Updating Assets/Scenes/NextLevel.unity - GUID: 39313552284452348b3a9511972ea5f0...
+----- Compute hash for Assets/Scenes/NextLevel.unity.
+ done. [Time: 21.793300 ms] 
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.22 ms.
+
+----- Total AssetImport time: 0.081106s, AssetImport time: 0.058777s, Asset hashing: 0.008738s [14.5 KB, 1.614923 mb/s]
+
+Opening scene 'Assets/Scenes/MarioDemo.unity'
+Load scene 'Assets/Scenes/MarioDemo.unity' time: 0.010500 ms 
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 3fc4 -> priority: 1 
+  Thread -> id: b30 -> priority: 1 
+  Thread -> id: 4a2c -> priority: 1 
+  Thread -> id: 3e48 -> priority: 1 
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.3 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3366.
+Total: 2.740100 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.022600 ms MarkObjects: 2.422400 ms  DeleteObjects: 0.025700 ms)
+
+Scenes creees: Assets/Scenes/MarioDemo.unity et Assets/Scenes/NextLevel.unity
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SuperMarioDemoSceneBuilder:CreateDemoScene() (at Assets\Editor\SuperMarioDemoSceneBuilder.cs:70)
+PortfolioCapture:Generate() (at Assets\Editor\PortfolioCapture.cs:18)
+ 
+(Filename: Assets/Editor/SuperMarioDemoSceneBuilder.cs Line: 70)
+
+Opening scene 'Assets/Scenes/NextLevel.unity'
+Load scene 'Assets/Scenes/NextLevel.unity' time: 0.009000 ms 
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 40.7 MB.
+System memory in use after: 40.9 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 3.564600 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.041300 ms MarkObjects: 2.925400 ms  DeleteObjects: 0.243500 ms)
+
+Opening scene 'Assets/Scenes/MarioDemo.unity'
+Load scene 'Assets/Scenes/MarioDemo.unity' time: 0.019300 ms 
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.4 MB.
+System memory in use after: 41.5 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 2.897600 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.500100 ms  DeleteObjects: 0.008400 ms)
+
+PORTFOLIO_CAPTURE_SUCCESS: D:\super_mario_exam\Communication_LinkedIn
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+PortfolioCapture:Generate() (at Assets\Editor\PortfolioCapture.cs:28)
+ 
+(Filename: Assets/Editor/PortfolioCapture.cs Line: 28)
+
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 4 milliseconds
+Pass: 1 took 7 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.20 ms.
+Mono: successfully reloaded assembly
+Refreshing native plugins compatible for Editor in 0.38 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+
+----- Total AssetImport time: 0.055351s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+- Completed reload, in  0.720 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.2.0 for Unity v2017.2.0f3
+Registering platform support modules:
+Registered platform support modules in: 0.0361905s.
+Native extension for WindowsStandalone target not found
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.010125 seconds (Nothing changed)
+Updating ProjectSettings/EditorBuildSettings.asset - GUID: 0000000000000000b000000000000000...
+ done. [Time: 24.436500 ms] 
+Refreshing native plugins compatible for Editor in 0.47 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
+
+----- Total AssetImport time: 0.068013s, AssetImport time: 0.039189s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.010297 seconds (Nothing changed)
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!
+debugger-agent: Unable to listen on 2720
